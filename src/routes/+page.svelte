@@ -1,3 +1,14 @@
-<h1 class="text-6xl font-bold underline">
-    Hello world!
-  </h1>
+<script>
+
+import Hero from "$lib/components/hero.svelte";
+
+</script>
+
+
+
+<section class="">
+<div class=" ">
+<Hero/>
+
+</div>
+</section>
