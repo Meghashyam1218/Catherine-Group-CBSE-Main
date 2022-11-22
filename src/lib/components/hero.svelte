@@ -1,4 +1,4 @@
-<section class="h-[150vh] bg-hero-pattern bg-cover rounded-[30px] m-6">
+<section class="h-[150vh] bg-gradient-to-r from-white to-black bg-cover rounded-[30px] m-6">
 
 <div class="bg-white/5 backdrop-blur-xl rounded-[30px] h-[150vh]">
 <div class="h-[70vh]">
@@ -172,11 +172,10 @@
         <div class="h-[80%] grid place-content-center space-y-0 leading-none">
             <span class="font-extrabold text-[200px] text-white font-GTAmericaExtendedRegular">DIVE INTO<br>LEARNING</span>
             <span class="place-self-center font-semibold text-3xl text-white">Let the ocean be your classroom.</span>
-        
         </div>
 </div>
 <div class="h-[80vh]">
-    <div class="bg-hero-pattern bg-cover h-[95%] rounded-[50px] mx-10 "></div>
+    <div class="bg-gradient-to-r from-black to-white bg-cover h-[95%] rounded-[50px] mx-10 "></div>
 </div>
 </div>
 
