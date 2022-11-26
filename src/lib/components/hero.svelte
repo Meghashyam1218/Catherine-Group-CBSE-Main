@@ -2,11 +2,11 @@
 
 <div class="bg-white/5 backdrop-blur-xl rounded-[30px] h-[150vh]">
 <div class="h-[70vh]">
-    <nav class="flex justify-between h-[15%] pt-10">
+    <div class="flex justify-between h-[15%] pt-10">
         <div class="pl-6 pt-2 items-center">
-        <button class="flex flex-row px-6 py-3 rounded-full bg-white hover:bg-[#2E2252] align-middle justify-between items-center">
+        <button class="flex flex-row px-6 py-3 rounded-full bg-white hover:bg-black align-middle justify-between items-center">
             <div class="px-2 space-y-2 ">
-                <svg class="hover:fill-white" version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+                <svg class="hover:fill-yellow-500 fill-yellow-500" version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
                 width="24.75px" height="24.75px" viewBox="0 0 24.75 24.75" style="enable-background:new 0 0 24.75 24.75;" xml:space="preserve"
                >
            <g>
@@ -50,7 +50,7 @@
             </button>
         </div>
             <div class="flex flex-row items-center justify-center pl-16">
-                <svg class="fill-white h-[90%] m-2" version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+                <svg class="fill-yellow-500 h-[90%] m-2" version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
 	 viewBox="0 0 512 512" style="enable-background:new 0 0 512 512;" xml:space="preserve">
 <g>
 	<g>
@@ -116,13 +116,13 @@
                <span class=" text-2xl font-bold text-white">Catherine <br> CBSE School</span>
             </div>
    <div class="flex flex-row items-center pr-6">
-<span class="text-lg font-semibold mr-6 text-white">Education Resorces</span>
-<span class="text-lg font-semibold mr-6 text-white">Community</span>
-<span class="text-lg font-semibold mr-6 text-white">Admissions</span>
-<svg class="h-[50%]" version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+<span class="text-lg font-semibold mr-6 text-white hover:text-yellow-500">Education Resorces</span>
+<span class="text-lg font-semibold mr-6 text-white hover:text-yellow-500">Community</span>
+<span class="text-lg font-semibold mr-6 text-white hover:text-yellow-500">Admissions</span>
+<svg class="h-[50%] fill-white hover:fill-yellow-500" version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
 	 viewBox="0 0 45.333 45.333" style="enable-background:new 0 0 45.333 45.333;" xml:space="preserve">
 <g>
-	<path style="fill:#ffffff;" d="M38.291,4.927c-1.2-1.142-1.792-1.316-1.3-0.481c0.302,0.513,0.555,1.039,0.757,1.58
+	<path style="" d="M38.291,4.927c-1.2-1.142-1.792-1.316-1.3-0.481c0.302,0.513,0.555,1.039,0.757,1.58
 		c0.543,1.457,0.815,2.814,0.815,4.074c0,2.087-0.272,3.803-0.815,5.15c-0.545,1.347-1.217,2.499-2.021,3.454
 		c-0.805,0.957-1.694,1.772-2.672,2.445c-0.978,0.675-1.903,1.347-2.771,2.021c-0.87,0.674-1.641,1.445-2.315,2.314
 		c-0.353,0.455-0.637,0.97-0.853,1.544c-0.344,0.915-0.419,2.27-0.419,2.954s-1.97,1.238-4.399,1.238s-4.399-0.657-4.399-1.467
@@ -168,7 +168,7 @@
 </g>
 </svg>
    </div>
-        </nav>
+</div>
         <div class="h-[80%] grid place-content-center space-y-0 leading-none">
             <span class="font-extrabold text-[200px] text-white font-GTAmericaExtendedRegular">DIVE INTO<br>LEARNING</span>
             <span class="place-self-center font-semibold text-3xl text-white">Let the ocean be your classroom.</span>
