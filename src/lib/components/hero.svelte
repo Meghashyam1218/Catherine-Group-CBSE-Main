@@ -4,7 +4,8 @@
 <div class="h-[70vh]">
     <div class="flex justify-between h-[15%] pt-10">
         <div class="pl-6 pt-2 items-center">
-        <button class="flex flex-row px-6 py-3 rounded-full bg-white hover:bg-black hover:text-white align-middle justify-between items-center">
+            <a href="#" class="">
+                <button class="flex flex-row px-6 py-3 rounded-full bg-white hover:bg-black hover:text-white align-middle justify-between items-center">
             <div class="px-2 space-y-2 ">
                 <svg class="hover:fill-yellow-500 fill-yellow-500" version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
                 width="24.75px" height="24.75px" viewBox="0 0 24.75 24.75" style="enable-background:new 0 0 24.75 24.75;" xml:space="preserve"
@@ -47,7 +48,7 @@
            </svg>
         </div> 
            <span class="align-middle font-medium pl-2 text-xl hover:text-white">Explore our resources</span>    
-            </button>
+            </button></a>
         </div>
             <div class="flex flex-row items-center justify-center pl-16">
                 <svg class="fill-yellow-500 shadow-2xl hover:shadow-black  h-[90%] m-2" version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
