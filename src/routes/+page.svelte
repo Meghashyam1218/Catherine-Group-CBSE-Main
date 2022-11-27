@@ -8,6 +8,7 @@ import Note3 from "$lib/components/note3.svelte";
 import Note4 from "$lib/components/note4.svelte";
 import Note5 from "$lib/components/note5.svelte";
 import Why from "$lib/components/why.svelte";
+import Burgermenu from "$lib/components/burgermenu.svelte";
 
 
 </script>
@@ -24,6 +25,8 @@ import Why from "$lib/components/why.svelte";
 <Note3/>
 <Note4/>
 <Note5/>
+<Burgermenu/>
+
 
 </div>
 </section>
