@@ -38,29 +38,28 @@
                     <a href="#"><li class="mb-4 hover:underline underline-offset-4">Social studies</li></a>
                     </ul>
                 </div>
-                <div class="flex flex-col ml-28">
-                    <ul class="flex flex-col items-start">
-                        <li class="from-purple-500 to-pink-500">
-                            <a class="flex bg-gradient-to-r bg-gradient-to-r  w-[110%] h-[310%] rounded-[30px]" href="">
-                                <div class="flex items-end relative w-[100%] justify-between">
-                                    <p class="ml-5 mb-5 text-lg font-medium">Explore our resources</p>
-                                    <span class="mb-3 mr-5 flex w-[47px] h-[47px] min-w-[47px] min-h-[47px] rounded-full items-center justify-center bg-white shadow-lg shadow-cyan-500/50 ">
-                                        <svg class="w-[24px] h-[24px] relative" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 25" role="img"><path fill-rule="evenodd" clip-rule="evenodd" d="M16.961 18.085a.459.459 0 0 0 .023.68.545.545 0 0 0 .732-.02l5.648-5.592.333-.33-.333-.33-5.572-5.516a.545.545 0 0 0-.732-.02.459.459 0 0 0-.023.68l4.76 4.712H.713c-.276 0-.5.224-.498.5 0 .276.226.5.502.5h21.028l-4.784 4.736Z"></path></svg>
-                                    </span>
-                                </div>
-                            </a>
-                        </li>
-                        <li class="mt-40">
-                            <a class="flex bg-gradient-to-r bg-gradient-to-r bg-gradient-to-r bg-gradient-to-r from-cyan-500 to-blue-500 w-[159%] h-[300%] rounded-[30px]" href="">
-                                <div class="flex items-end relative w-[100%] justify-between">
-                                    <p class="ml-5 mb-5 text-lg font-medium">What's New</p>
-                                    <span class="mb-3 mr-5 flex w-[47px] h-[47px] min-w-[47px] min-h-[47px] rounded-full items-center justify-center bg-white shadow-lg shadow-cyan-500/50 ">
-                                        <svg class="w-[24px] h-[24px] relative" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 25" role="img"><path fill-rule="evenodd" clip-rule="evenodd" d="M16.961 18.085a.459.459 0 0 0 .023.68.545.545 0 0 0 .732-.02l5.648-5.592.333-.33-.333-.33-5.572-5.516a.545.545 0 0 0-.732-.02.459.459 0 0 0-.023.68l4.76 4.712H.713c-.276 0-.5.224-.498.5 0 .276.226.5.502.5h21.028l-4.784 4.736Z"></path></svg>
-                                    </span>
-                                </div>
-                            </a>
-                        </li>
-                    </ul>
+                <div class="grid place-items-center ml-[10%] ">
+                    <button class="grid content-end h-[20vh] shadow-2xl w-[15vw] rounded-[30px] ease-in-out duration-700 hover:bg-gradient-to-r hover:from-pink-300 hover:via-orange-400 hover:to-red-500 bg-gradient-to-bl from-pink-300 via-orange-400 to-red-500">
+                        <div class="flex flex-row mr-[5%] mb-[5%]">
+                    <div class="w-full grid place-items-center justify-start ml-6">
+                        <span class="text-lg font-semibold">Explore our resorces</span>
+                    </div>
+                    <div class="rounded-full shadow-lg grid place-items-center bg-white h-[6vh] w-[4vw]">
+                        <svg class="w-[24px] h-[24px] relative" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 25" role="img"><path fill-rule="evenodd" clip-rule="evenodd" d="M16.961 18.085a.459.459 0 0 0 .023.68.545.545 0 0 0 .732-.02l5.648-5.592.333-.33-.333-.33-5.572-5.516a.545.545 0 0 0-.732-.02.459.459 0 0 0-.023.68l4.76 4.712H.713c-.276 0-.5.224-.498.5 0 .276.226.5.502.5h21.028l-4.784 4.736Z"></path></svg>
+                    </div>
+                        </div>
+                    </button> 
+                    
+                    <button class="grid content-end h-[20vh] w-[15vw] shadow-2xl rounded-[30px] hover:bg-gradient-to-r hover:to-[#7fdddd] hover:via-[#3dd3cb] hover:from-[#1aa9e8] bg-gradient-to-bl from-[#7fdddd] via-[#3dd3cb] to-[#1aa9e8]">
+                        <div class="flex flex-row mr-[5%] mb-[5%]">
+                    <div class="w-full grid place-items-center justify-start ml-6">
+                        <span class="text-lg font-semibold">What's New?</span>
+                    </div>
+                    <div class="rounded-full shadow-lg grid place-items-center bg-white h-[6vh] w-[4vw]">
+                        <svg class="w-[24px] h-[24px] relative" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 25" role="img"><path fill-rule="evenodd" clip-rule="evenodd" d="M16.961 18.085a.459.459 0 0 0 .023.68.545.545 0 0 0 .732-.02l5.648-5.592.333-.33-.333-.33-5.572-5.516a.545.545 0 0 0-.732-.02.459.459 0 0 0-.023.68l4.76 4.712H.713c-.276 0-.5.224-.498.5 0 .276.226.5.502.5h21.028l-4.784 4.736Z"></path></svg>
+                    </div>
+                        </div>
+                    </button>
                 </div>
                 <div class="pl-60">
                     <ul>
