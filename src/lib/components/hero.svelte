@@ -4,7 +4,7 @@
 <div class="h-[70vh]">
     <div class="flex justify-between h-[15%] pt-10">
         <div class="pl-6 pt-2 items-center">
-            <a href="./2.png" class="">
+            <a href="#" class="">
                 <button class="flex flex-row px-6 py-3 rounded-full bg-white hover:bg-black hover:text-white align-middle justify-between items-center">
             <div class="px-2 space-y-2 ">
                 <svg class="hover:fill-yellow-500 fill-yellow-500" version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
