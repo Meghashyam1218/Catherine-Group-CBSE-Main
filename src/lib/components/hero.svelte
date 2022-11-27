@@ -46,7 +46,7 @@
            </g>
            </svg>
         </div> 
-           <span class="align-middle font-medium pl-2 text-xl hover:text-white">Explore our resorces</span>    
+           <span class="align-middle font-medium pl-2 text-xl hover:text-white">Explore our resources</span>    
             </button>
         </div>
             <div class="flex flex-row items-center justify-center pl-16">
