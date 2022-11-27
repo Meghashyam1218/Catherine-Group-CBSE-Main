@@ -1,4 +1,4 @@
-<section class="h-[90vh] pt-20">
+<section class="h-[90vh] pt-20 bg-[#eff3f3]">
     <div class="flex flex-row">
         <div class="pl-52 ">
             <img src="./2.png" class="rounded-[150px] w-[700px]" alt="">

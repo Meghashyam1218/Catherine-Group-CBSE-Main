@@ -1,6 +1,6 @@
-<nav class="flex justify-between fixed top-0 bg-white w-full h-[8%] rounded-b-3xl">
+<nav class="flex justify-between fixed shadow-2xl top-0 bg-white w-full h-[8%] rounded-b-3xl">
     <div class="grid place-self-center pl-6">
-    <button class="flex flex-row px-6 py-3 rounded-full bg-white hover:bg-gray-900 align-middle justify-between items-center">
+    <button class="flex flex-row px-6 py-3 rounded-full bg-white hover:text-white hover:bg-gray-900 align-middle justify-between items-center">
         <div class="px-2 space-y-2 ">
             <svg class="hover:fill-yellow-500 fill-yellow-500" version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
             width="24.75px" height="24.75px" viewBox="0 0 24.75 24.75" style="enable-background:new 0 0 24.75 24.75;" xml:space="preserve"

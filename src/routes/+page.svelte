@@ -15,8 +15,9 @@ import Why from "$lib/components/why.svelte";
 
 
 <section class="">
-<div class=" ">
+<div class="">
 <Hero/>
+<Navbar/>
 <Why/>
 <Note1/>
 <Note2/>
