@@ -9,6 +9,7 @@ import Note4 from "$lib/components/note4.svelte";
 import Note5 from "$lib/components/note5.svelte";
 import Why from "$lib/components/why.svelte";
 import Burgermenu from "$lib/components/burgermenu.svelte";
+import Watch from "$lib/components/watch.svelte";
 
 
 </script>
@@ -20,6 +21,7 @@ import Burgermenu from "$lib/components/burgermenu.svelte";
 <Hero/>
 <Navbar/>
 <Why/>
+<Watch/>
 <Note1/>
 <Note2/>
 <Note3/>
