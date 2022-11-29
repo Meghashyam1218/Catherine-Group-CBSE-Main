@@ -31,9 +31,6 @@ module.exports = {
             // => @media (min-width: 1536px) { ... }
         },
         extend: {
-            backgroundImage: {
-                'hero-pattern': "url('./herobg.jpg')",
-            },
             fontFamily: {
                 GTAmericaExtendedRegular: "GT America Extended Regular",
             },
