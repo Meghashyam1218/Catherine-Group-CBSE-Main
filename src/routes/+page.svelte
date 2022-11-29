@@ -25,8 +25,6 @@ import Watch from "$lib/components/watch.svelte";
 <Note2/>
 <Note3/>
 <Note4/>
-<Note5/>
-<Burgermenu/>
 
 
 </div>
