@@ -1,12 +1,12 @@
-<section class="h-[150vh] bg-cover rounded-[30px] m-6" style="background-image: url(./herobg.jpg);">
+<section class="xl:h-[150vh] 3xs:h-[100vh] bg-cover md:rounded-[30px] md:m-6" style="background-image: url(./herobg.png);">
 
-<div class="bg-white/5 backdrop-blur-xl rounded-[30px] h-[150vh]">
-<div class="h-[70vh]">
-    <div class="flex items-center justify-between h-[20%] pt-5">
+<div class="bg-white/5 backdrop-blur-xl md:rounded-[30px] xl:h-[150vh] 3xs:h-[100vh]">
+<div class="xl:h-[70vh] lg:h-[50vh] 3xs:h-[35vh]">
+    <div class="flex items-center justify-between xl:h-[20%] lg:h-[15%] md:pt-5 3xs:pt-3">
         <div class="pl-6 items-center">
             <a href="#" class="">
-                <button class="flex flex-row px-6 py-3 rounded-full bg-white hover:bg-black hover:text-white align-middle justify-between items-center">
-            <div class="px-2 space-y-2 ">
+                <button class="flex flex-row md:px-6 md:py-3 px-2 py-1 rounded-full bg-white hover:bg-black hover:text-white align-middle justify-between items-center">
+            <div class="px-2 space-y-2">
                 <svg class="hover:fill-yellow-500 fill-yellow-500" version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
                 width="24.75px" height="24.75px" viewBox="0 0 24.75 24.75" style="enable-background:new 0 0 24.75 24.75;" xml:space="preserve">
             <g>
@@ -45,8 +45,8 @@
            <g>
            </g>
            </svg>
-        </div> 
-           <span class="align-middle font-medium pl-2 text-xl hover:text-white">Explore our resources</span>    
+        </div>
+           <span class="align-middle font-medium lg:block hidden pl-2 xl:text-xl lg:text-sm md:text-sm hover:text-white">Explore our resources</span>
             </button></a>
         </div>
             <div class="flex flex-row items-center justify-center">
@@ -113,21 +113,21 @@
 <g>
 </g>
 </svg>
-               <span class=" text-xl font-bold text-white">Catherine <br> CBSE School</span>
+               <span class="xl:text-xl lg:text-lg font-bold text-white">Catherine <br> CBSE School</span>
             </div>
-   <div class="flex flex-row items-center mr-3">
-       <div class="mr-6"><span class="text-lg font-semibold  text-white hover:text-yellow-500">Resorces</span></div>
-       <div class="mr-6"><span class="text-lg font-semibold  text-white hover:text-yellow-500">Community</span></div>
-       <div class="mr-6"><span class="text-lg font-semibold  text-white hover:text-yellow-500">Admissions</span></div>
+   <div class="flex flex-row items-center xl:mr-3 lg:mr-2 pr-6">
+       <div class="xl:mr-6 lg:mr-3 lg:block hidden"><span class="xl:text-lg lg:text-base  font-semibold  text-white hover:text-yellow-500">Resorces</span></div>
+       <div class="xl:mr-6 lg:mr-3 lg:block hidden"><span class="xl:text-lg lg:text-base font-semibold  text-white hover:text-yellow-500">Community</span></div>
+       <div class="xl:mr-6 lg:mr-3 "><span class="xl:text-lg font-semibold md:text-base xs:text-xs text-white hover:text-yellow-500">Admissions</span></div>
    </div>
 </div>
-        <div class="h-[80%] grid place-content-center space-y-0 leading-none">
-            <span class="font-extrabold text-[180px] text-white font-GTAmericaExtendedRegular">DIVE INTO<br>LEARNING</span>
-            <span class="place-self-center font-semibold text-2xl text-white">Let the ocean be your classroom.</span>
+        <div class="xl:h-[80%] h-[70%] grid place-content-center space-y-0 leading-none">
+            <span class="font-extrabold xl:text-[180px] lg:text-[150px] md:text-[120px] sm:text-[90px] xs:text-[60px] 2xs:text-[60px] 3xs:text-[50px] text-white font-GTAmericaExtendedRegular">DIVE INTO<br>LEARNING</span>
+            <span class="place-self-center font-semibold md:text-2xl sm:text-xl text-white">Let the ocean be your classroom.</span>
         </div>
 </div>
-<div class="h-[80vh]">
-    <div class="bg-cover h-[95%] rounded-[50px] mx-[10%]" style="background-image: url(./herobg.jpg);"></div>
+<div class="xl:h-[80vh] lg:h-[50vh] 3xs:h-[65vh]">
+    <div class="bg-cover h-[95%] rounded-[50px] mx-[10%]" style="background-image: url(./herobg.png);"></div>
 </div>
 </div>
 

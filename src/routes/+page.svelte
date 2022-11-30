@@ -19,12 +19,6 @@ import Watch from "$lib/components/watch.svelte";
 <section class="">
 <div class="">
 <Hero/>
-<Why/>
-<Watch/>
-<Note1/>
-<Note2/>
-<Note3/>
-<Note4/>
 
 
 </div>
