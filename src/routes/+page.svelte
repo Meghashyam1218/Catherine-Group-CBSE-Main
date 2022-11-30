@@ -18,7 +18,7 @@ import Watch from "$lib/components/watch.svelte";
 
 <section class="">
 <div class="">
-<Hero/>
+    <Hero/>
 
 
 </div>
