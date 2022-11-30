@@ -118,7 +118,8 @@
    <div class="flex flex-row items-center xl:mr-3 lg:mr-2 pr-6">
        <div class="xl:mr-6 lg:mr-3 lg:block hidden"><span class="xl:text-lg lg:text-base  font-semibold  text-white hover:text-yellow-500">Resorces</span></div>
        <div class="xl:mr-6 lg:mr-3 lg:block hidden"><span class="xl:text-lg lg:text-base font-semibold  text-white hover:text-yellow-500">Community</span></div>
-       <div class="xl:mr-6 lg:mr-3 "><span class="xl:text-lg font-semibold md:text-base xs:text-xs text-white hover:text-yellow-500">Admissions</span></div>
+       <div class="xl:mr-6 lg:mr-3 lg:block hidden"><span class="xl:text-lg font-semibold md:text-base xs:text-xs text-white hover:text-yellow-500">Admissions</span></div>
+       <div class=" "><svg xmlns:xlink="http://www.w3.org/1999/xlink" width="28" height="28" viewBox="0 0 28 28" xmlns="http://www.w3.org/2000/svg" role="img"><path d="M26.832 14C26.832 13.2262 26.832 12.8393 26.8142 12.5125C26.4805 6.39975 21.5989 1.5182 15.4862 1.18447C15.1594 1.16663 14.7725 1.16663 13.9987 1.16663C13.2249 1.16663 12.838 1.16663 12.5112 1.18447C6.39849 1.5182 1.51694 6.39975 1.18321 12.5125C1.16537 12.8393 1.16537 13.2262 1.16537 14V23.1666C1.16537 24.7303 1.16537 25.5122 1.57866 26.0508C1.68506 26.1895 1.80918 26.3136 1.94784 26.42C2.48646 26.8333 3.26831 26.8333 4.83203 26.8333H13.9987C14.7725 26.8333 15.1594 26.8333 15.4862 26.8154C21.5989 26.4817 26.4805 21.6002 26.8142 15.4875C26.832 15.1606 26.832 14.7737 26.832 14Z" fill="#FFFFFF" stroke="#FFFFFF"></path> <path d="M10.5 10.4364C10.5 8.53851 12.067 7 14 7C15.933 7 17.5 8.53851 17.5 10.4364C17.5 12.3342 14 13.4909 14 15.2091V16.3333" stroke="#0C1637" stroke-linecap="round" fill="#FFFFFF"></path> <ellipse cx="14.0586" cy="20.125" rx="0.875" ry="0.875" fill="#0C1637"></ellipse></svg></div>
    </div>
 </div>
         <div class="xl:h-[80%] h-[70%] grid place-items-center space-y-0 leading-none">
