@@ -121,7 +121,7 @@
        <div class="xl:mr-6 lg:mr-3 "><span class="xl:text-lg font-semibold md:text-base xs:text-xs text-white hover:text-yellow-500">Admissions</span></div>
    </div>
 </div>
-        <div class="xl:h-[80%] h-[70%] grid place-content-center space-y-0 leading-none">
+        <div class="xl:h-[80%] h-[70%] grid place-items-center space-y-0 leading-none">
             <span class="font-extrabold 2xl:text-[160px] xl:text-[120px] lg:text-[90px] md:text-[60px] sm:text-[60px] xs:text-[60px] 2xs:text-[60px] 3xs:text-[50px] text-white font-GTAmericaExtendedRegular">DIVE INTO<br>LEARNING</span>
             <span class="place-self-center font-semibold md:text-2xl sm:text-xl text-white">Let the ocean be your classroom.</span>
         </div>
