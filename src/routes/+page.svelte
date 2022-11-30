@@ -21,10 +21,6 @@ import Watch from "$lib/components/watch.svelte";
 <Hero/>
 <Why/>
 <Watch/>
-<Note1/>
-<Note2/>
-<Note3/>
-<Note4/>
 
 
 </div>
