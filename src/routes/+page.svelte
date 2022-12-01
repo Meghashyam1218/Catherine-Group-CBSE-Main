@@ -10,16 +10,22 @@ import Note5 from "$lib/components/note5.svelte";
 import Why from "$lib/components/why.svelte";
 import Burgermenu from "$lib/components/burgermenu.svelte";
 import Watch from "$lib/components/watch.svelte";
+import Offers from "$lib/components/offers.svelte";
+import Note6 from "$lib/components/note6.svelte";
 
 
 </script>
 
 
-
 <section class="">
 <div class="">
     <Hero/>
-
+    <Why/>
+    <Watch/>
+    <Offers/>
+    <Note6/>
+    <Note1/>
+    <Note2/>
 
 </div>
 </section>
