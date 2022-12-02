@@ -1,7 +1,7 @@
 <section class="h-[90vh] bg-gradient-to-r from-[#5fd8d4] via-[#5bd8d3] to-[#1aa9e8]">
     <div class="flex flex-row">
     <div class="pl-[12%] pt-[5%] w-max flex flex-col">
-    <div class="">
+    <div class="ml-11">
         <img class="rounded-[100px] w-[420px]" src="./3.jpg" alt="">
     </div> 
     <div class="flex justify-around bg-white w-[120%] h-28 rounded-[30px] items-center">

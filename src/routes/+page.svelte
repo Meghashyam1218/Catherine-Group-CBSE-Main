@@ -26,6 +26,7 @@ import Note6 from "$lib/components/note6.svelte";
     <Note6/>
     <Note1/>
     <Note2/>
+    <Note3/>
 
 </div>
 </section>
