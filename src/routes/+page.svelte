@@ -20,13 +20,7 @@ import Note6 from "$lib/components/note6.svelte";
 <section class="">
 <div class="">
     <Hero/>
-    <Why/>
-    <Watch/>
-    <Offers/>
-    <Note6/>
-    <Note1/>
-    <Note2/>
-    <Note3/>
+    
 
 </div>
 </section>
