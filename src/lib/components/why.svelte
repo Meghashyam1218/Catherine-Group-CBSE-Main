@@ -1,4 +1,4 @@
-<section class="flex flex-row bg-[#eff3f3]">
+<section class="flex flex-row bg-[#eff3f3] h-[100vh]">
     <div class="pt-[100px] pl-[200px] pr-[200px] pb-[5px] flex flex-row">
     <div class="w-[75%]">
         <div>
