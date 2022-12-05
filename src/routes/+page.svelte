@@ -12,15 +12,15 @@ import Burgermenu from "$lib/components/burgermenu.svelte";
 import Watch from "$lib/components/watch.svelte";
 import Offers from "$lib/components/offers.svelte";
 import Note6 from "$lib/components/note6.svelte";
-
+import Footer from "$lib/components/footer.svelte";
 
 </script>
 
 
 <section class="">
 <div class="">
+    <Navbar/>
     <Hero/>
-    
-
+    <Why/>
 </div>
 </section>
