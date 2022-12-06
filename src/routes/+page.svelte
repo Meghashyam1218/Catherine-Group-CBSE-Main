@@ -13,6 +13,7 @@ import Watch from "$lib/components/watch.svelte";
 import Offers from "$lib/components/offers.svelte";
 import Note6 from "$lib/components/note6.svelte";
 import Footer from "$lib/components/footer.svelte";
+import Cards from "$lib/components/cards.svelte"
 
 </script>
 
@@ -22,5 +23,7 @@ import Footer from "$lib/components/footer.svelte";
     <Navbar/>
     <Hero/>
     <Why/>
+    <Cards/>
+
 </div>
 </section>
