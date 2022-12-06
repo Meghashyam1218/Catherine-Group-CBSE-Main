@@ -5,17 +5,16 @@
    const mediaQuery = window.matchMedia('(min-width: 768px)')
 
         if (mediaQuery.matches) {
-        document.getElementsByClassName('events-container')[0].scrollLeft += 250;
+        document.getElementsByClassName('events-container')[0].scrollLeft += 0;
         
         }
         
     })
     function ScrollLeft(){
-        if(document.getElementsByClassName('events-container')[0].scrollLeft > 380){
     document.getElementsByClassName('events-container')[0].scrollLeft -= 382;
     console.log(document.getElementsByClassName('events-container')[0].scrollLeft)
 }
-   }
+   
    function ScrollRight(){
     if(document.getElementsByClassName('events-container')[0].scrollLeft < 2674){
 
@@ -64,25 +63,8 @@
 </div>
 
 <div class="events-container md:px-4 py-4 pr-8 flex flex-nowrap overflow-x-auto bg-white h-[600px] ">
-    <div class="card hidden md:block  w-[350px] p-2 relative mx-4 " id="none">
-        <div class="cards-grad absolute z-0">
-            <div id="grad-1-none" class="w-[300px]  z-0 absolute top-[-10px] left-[12.5px] rounded-3xl  opacity-0 h-[100px]   bg-gradient-to-r from-cyan-500 to-blue-500 "></div>
-            <div id="grad-2-none" class="w-[270px] -z-10 absolute top-[-20px] left-[30px] rounded-3xl opacity-0  h-[100px]  bg-gradient-to-r from-purple-500 to-pink-500 "></div>
-        </div>  
-        <div class="card-image-parent-none rounded-t-3xl relative z-10 overflow-hidden h-[300px] mb-[-120px]"> 
-            
-        </div>
-        <div class="card-content-none h-[350px]  grid items-center  relative z-20 bg-white  rounded-3xl p-6 ">
-            <h6 class="content-date text-base font-semibold  text-gray-500">
-                
-            </h6>
-            <h1 class="content-head text-2xl font-bold text-gray-800 ">
-                
-            </h1>
-            <p class="content-description-none font-medium text-justify  text-gray-600 ">
-            </p>
-            <div class="content-view-none text-right pr-2 font-semibold text-gray-400"></div>
-        </div>
+    <div class="card hidden md:block  w-[100px] p-2 relative mx-4 " id="none">
+        
     </div>
     {#each $Events as event,i }
     <div class="card  w-[350px] p-2 relative mx-4 " id={`card-${i}`}>
