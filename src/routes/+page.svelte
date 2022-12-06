@@ -10,7 +10,6 @@ import Cards from "$lib/components/cards.svelte"
 
 <section class="">
 <div class="">
-    <Navbar/>
     <Hero/>
     <Why/>
     <Cards/>
