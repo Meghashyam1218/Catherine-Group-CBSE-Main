@@ -2,22 +2,35 @@
     import {Events} from "$lib/stores/events.js"
 	import { onMount } from "svelte";
     onMount(() => {
-        document.getElementsByClassName('events-container')[0].scrollLeft += 200;
+   const mediaQuery = window.matchMedia('(min-width: 768px)')
+
+        if (mediaQuery.matches) {
+        document.getElementsByClassName('events-container')[0].scrollLeft += 250;
+        
+        }
+        
     })
     function ScrollLeft(){
-    document.getElementsByClassName('events-container')[0].scrollLeft -= 400;
+        if(document.getElementsByClassName('events-container')[0].scrollLeft > 380){
+    document.getElementsByClassName('events-container')[0].scrollLeft -= 382;
+    console.log(document.getElementsByClassName('events-container')[0].scrollLeft)
+}
    }
    function ScrollRight(){
-    document.getElementsByClassName('events-container')[0].scrollLeft += 400;
-   }
-    
+    if(document.getElementsByClassName('events-container')[0].scrollLeft < 2674){
+
+    document.getElementsByClassName('events-container')[0].scrollLeft += 382;
+    console.log(document.getElementsByClassName('events-container')[0].scrollLeft)
+
+       } 
+         }
 </script>
 <section class="events">
     
-<div class="events-head w-[90vw] mx-auto flex justify-between items-center p-4">
-    <h1 class="text-6xl font-black basis-3/4 text-gray-800 m-4 ml-6">Catherine Events</h1>
-    <div class="flex basis-1/4 justify-end mr-20">
-        <div on:click={ScrollLeft} class="arrow-left cursor-pointer rotate-0 ml-6">
+<div class="events-head  w-[90vw] mx-auto flex flex-col md:flex-row justify-between items-center p-4">
+    <h1 class="md:text-6xl text-3xl 2xs:text-4xl font-black md:basis-3/4 text-gray-800 md:m-4 md:ml-6">Catherine Events</h1>
+    <div class="flex md:basis-1/4 scale-[0.7] md:scale-[1] justify-end md:mr-20">
+        <div on:click={ScrollLeft } class="arrow-left cursor-pointer rotate-0 md:ml-6">
             <svg
              width="50pt" height="50pt" viewBox="0 0 100.000000 100.000000"
              preserveAspectRatio="xMidYMid meet">
@@ -32,7 +45,7 @@
                 </g>
             </svg>
         </div>
-        <div on:click={ScrollRight} class="arrow-right cursor-pointer rotate-180 ml-6">
+        <div on:click={ScrollRight} class="arrow-right cursor-pointer rotate-180 md:ml-6">
              <svg
               width="50pt" height="50pt" viewBox="0 0 100.000000 100.000000"
               preserveAspectRatio="xMidYMid meet">
@@ -50,8 +63,8 @@
     </div>
 </div>
 
-<div class="events-container p-4 flex flex-nowrap  overflow-x-auto bg-white h-[600px] ">
-    <div class="card  w-[350px] p-2 relative mx-4 " id="none">
+<div class="events-container md:px-4 py-4 pr-8 flex flex-nowrap overflow-x-auto bg-white h-[600px] ">
+    <div class="card hidden md:block  w-[350px] p-2 relative mx-4 " id="none">
         <div class="cards-grad absolute z-0">
             <div id="grad-1-none" class="w-[300px]  z-0 absolute top-[-10px] left-[12.5px] rounded-3xl  opacity-0 h-[100px]   bg-gradient-to-r from-cyan-500 to-blue-500 "></div>
             <div id="grad-2-none" class="w-[270px] -z-10 absolute top-[-20px] left-[30px] rounded-3xl opacity-0  h-[100px]  bg-gradient-to-r from-purple-500 to-pink-500 "></div>
@@ -94,6 +107,7 @@
     </div>
     {/each}
 </div>
+
 
 </section>
 <style>
