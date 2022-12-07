@@ -66,7 +66,7 @@
 	<div
 		class="highlights md:scale-[0.75] lg:scale-[1] lg:gap-2 gap-8 md:flex-row md:flex w-[95vw] justify-evenly"
 	>
-		<div class="highlight w-[311px] mx-auto relative">
+		<div class="highlight cursor-pointer w-[311px] mx-auto relative">
 			<div class="highlight-bg1">
 				<svg
 					class="mx-auto"
@@ -151,7 +151,7 @@
 				>
 			</div>
 		</div>
-		<div class="highlight w-[311px] mx-auto relative">
+		<div class="highlight cursor-pointer w-[311px] mx-auto relative">
 			<div class=" highlight-bg2">
 				<svg
 					class="mx-auto"
@@ -216,7 +216,7 @@
 				>
 			</div>
 		</div>
-		<div class="highlight w-[311px] mx-auto relative">
+		<div class="highlight cursor-pointer w-[311px] mx-auto relative">
 			<div class="highlight-bg3">
 				<svg
 					class="mx-auto"
