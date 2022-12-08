@@ -8,7 +8,7 @@
     }
 </script>
 <section class="z-[999] fixed top-0">
-<div in:fade class="w-[100vw]  transition-all duration-500 ease-linear  bg-white h-[70px] md:h-[100px]  pt-[5px] md:pt-[20px] px-[42px] {nav === false ? ' ' : 'rounded-b-[2.5rem] shadow-md'} ">
+<div in:fade class="w-[100vw]  transition-all duration-500 ease-linear  bg-white h-[70px] md:h-[85px]  pt-[5px] md:pt-[10px] px-[25px] md:px-[24px] xl:px-[42px] {nav === false ? ' ' : 'rounded-b-[2rem] shadow-md'} ">
 	<div class="nav grid">
 		<div>
 			{#if nav}
@@ -16,7 +16,7 @@
 				aria-label="Open main menu "
 				tabindex="1"
 				aria-haspopup="true"
-				class="bg-[#0c1637] button-menu button--white header__menu-btn-open transition-all duration-500 ease-linear "
+				class="bg-[#0c1637] button-menu py-[15px] px-[15px] md:px-[30px] button--white header__menu-btn-open transition-all duration-500 ease-linear "
 							on:click={navToggle}
 							>	
 
@@ -45,7 +45,7 @@
 				aria-label="Open main menu "
 				tabindex="1"
 				aria-haspopup="true"
-				class="bg-[#fff] button-menu"
+				class="bg-[#fff] button-menu p-[15px]"
 				on:click={navToggle}
 				>
 				<span class="button__icon ">
@@ -59,17 +59,17 @@
 		</div>
         <div class="flex items-center justify-center pointer-events-none">
 			<img src="./logo.png" class="h-[40px] mr-2">
-            <span class="font-bold">Catherine CBSE</span>
+            <span class="text-2xl font-bold">Catherine CBSE</span>
         </div>
 			<div class="header__nav anim--fade--reverse anim--fade--reverse--in lg:flex justify-end items-center hidden">
 				<ul class="header__nav-links flex ">
 					<li class=" {nav === false ? ' hidden  ' : 'inline-block'}">
-						<a href="/resources" aria-label="Educational Resources" tabindex="1" class="link text-sm xl:text-base text-[#0c1637]"
+						<a href="/resources" aria-label="Educational Resources" tabindex="1" class="link menu-list after:h-[1px] text-sm xl:text-base text-[#0c1637]"
 							><span>Mandatory Disclosure</span></a
 						>
 					</li>
 					<li class="  {nav === false ? ' hidden ' : 'inline-block ml-[24px]'}">
-						<a href="/community" aria-label="Community" tabindex="1" class="link text-[#0c1637]"
+						<a href="/community" aria-label="Community" tabindex="1" class="link menu-list after:h-[1px] text-[#0c1637]"
 							><span>Contact Us</span></a
 						>
 					</li>
@@ -78,7 +78,7 @@
 							><span class="inline mr-2"><svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
 								<path stroke-linecap="round" stroke-linejoin="round" d="M20.25 8.511c.884.284 1.5 1.128 1.5 2.097v4.286c0 1.136-.847 2.1-1.98 2.193-.34.027-.68.052-1.02.072v3.091l-3-3c-1.354 0-2.694-.055-4.02-.163a2.115 2.115 0 01-.825-.242m9.345-8.334a2.126 2.126 0 00-.476-.095 48.64 48.64 0 00-8.048 0c-1.131.094-1.976 1.057-1.976 2.192v4.286c0 .837.46 1.58 1.155 1.951m9.345-8.334V6.637c0-1.621-1.152-3.026-2.76-3.235A48.455 48.455 0 0011.25 3c-2.115 0-4.198.137-6.24.402-1.608.209-2.76 1.614-2.76 3.235v6.226c0 1.621 1.152 3.026 2.76 3.235.577.075 1.157.14 1.74.194V21l4.155-4.155" />
 							  </svg>
-							  </span><a class="inline">Live Chat</a></a
+							  </span><a class="inline menu-list after:h-[1px]">Live Chat</a></a
 						>
 						
 					</li>
@@ -88,27 +88,27 @@
     
 </div>
 {#if !nav}
-<div transition:slide class="absolute top-[70px] md:top-[100px] w-[100vw] ">
-    <div class="flex border-b-[1px] rounded-b-[2.5rem] bg-white px-[20vw] border-t-[1px] flex-row">
-        <div class="w-[50%] border-r-[1px] pb-10 pt-10">
+<div transition:slide class="absolute z-[999] top-[70px] md:top-[85px] w-[100vw] ">
+    <div class="flex md:flex-row flex-col border-b-[1px] rounded-b-[2.5rem] bg-white md:px-[20vw] border-t-[1px] ">
+        <div class="md:w-[50%] pl-10 md:pl-0 pt-5 border-b-[1px] md:border-r-[1px] md:pb-10 md:pt-10">
             <uL>
-                <li class="p-4"><a class=" menu-list text-2xl after:h-[3px] cursor-pointer font-semibold text-[#0c1637]">About US</a></li>
-                <li class="p-4"><a class=" menu-list text-2xl after:h-[3px] cursor-pointer font-semibold text-[#0c1637]">Infrastructure</a></li>
-                <li class="p-4"><a class=" menu-list text-2xl after:h-[3px] cursor-pointer font-semibold text-[#0c1637]">Admissions</a></li>
-                <li class="p-4"><a class=" menu-list text-2xl after:h-[3px] cursor-pointer font-semibold text-[#0c1637]">Educators</a></li>
-                <li class="p-4"><a class=" menu-list text-2xl after:h-[3px] cursor-pointer font-semibold text-[#0c1637]">Curriculum</a></li>
-                <li class="p-4"><a class=" menu-list text-2xl after:h-[3px] cursor-pointer font-semibold text-[#0c1637]">Events</a></li>
+                <li class=" p-2 md:p-4"><a class=" menu-list text-xl md:text-2xl after:h-[3px] cursor-pointer font-semibold text-[#0c1637]">About US</a></li>
+                <li class=" p-2 md:p-4"><a class=" menu-list text-xl md:text-2xl after:h-[3px] cursor-pointer font-semibold text-[#0c1637]">Infrastructure</a></li>
+                <li class=" p-2 md:p-4"><a class=" menu-list text-xl md:text-2xl after:h-[3px] cursor-pointer font-semibold text-[#0c1637]">Admissions</a></li>
+                <li class=" p-2 md:p-4"><a class=" menu-list text-xl md:text-2xl after:h-[3px] cursor-pointer font-semibold text-[#0c1637]">Educators</a></li>
+                <li class=" p-2 md:p-4"><a class=" menu-list text-xl md:text-2xl after:h-[3px] cursor-pointer font-semibold text-[#0c1637]">Curriculum</a></li>
+                <li class=" p-2 md:p-4"><a class=" menu-list text-xl md:text-2xl after:h-[3px] cursor-pointer font-semibold text-[#0c1637]">Events</a></li>
             </uL>
 
         </div>
-        <div class="w-[50%] pt-10 pl-10 pb-10">
-            <h1 class="text-2xl text-[#0c1637] font-medium">Quick Links</h1>
-            <ul class="py-4">
-                <li class="p-3"><a class="menu-list cursor-pointer	 text-xl p-0 after:h-[1px] font-light">Mandatory Disclosure</a></li>
-                <li class="p-3"><a class="menu-list cursor-pointer	 text-xl p-0 after:h-[1px] font-light">Contact Us</a></li>
-                <li class="p-3"><a class="menu-list cursor-pointer	 text-xl p-0 after:h-[1px] font-light">Catherine College</a></li>
-                <li class="p-3"><a class="menu-list cursor-pointer	 text-xl p-0 after:h-[1px] font-light">Catherine School</a></li>
-                <li class="p-3"><a class="menu-list cursor-pointer	 text-xl p-0 after:h-[1px] font-light">Directions to Catherine</a></li>
+        <div class="md:w-[50%] mt-5 md:pt-10 pl-10 pb-10">
+            <h1 class=" text-xl  md:text-2xl text-[#0c1637] font-medium">Quick Links</h1>
+            <ul class="md:py-4">
+                <li class="p-3"><a class="menu-list cursor-pointer	text-base md:text-xl p-0 after:h-[1px] font-light">Mandatory Disclosure</a></li>
+                <li class="p-3"><a class="menu-list cursor-pointer	text-base md:text-xl p-0 after:h-[1px] font-light">Contact Us</a></li>
+                <li class="p-3"><a class="menu-list cursor-pointer	text-base md:text-xl p-0 after:h-[1px] font-light">Catherine College</a></li>
+                <li class="p-3"><a class="menu-list cursor-pointer	text-base md:text-xl p-0 after:h-[1px] font-light">Catherine School</a></li>
+                <li class="p-3"><a class="menu-list cursor-pointer	text-base md:text-xl p-0 after:h-[1px] font-light">Directions to Catherine</a></li>
             </ul>
         </div>
 
@@ -124,10 +124,10 @@
     }
 }
 	.nav {
-		grid-template-columns: 1fr 180px 1fr;
+		grid-template-columns: 1fr 250px 1fr;
 	}
 	.button-menu {
-		padding: 15px 30px;
+		/* padding: 15px 30px; */
 		border-radius: 34px;
 		font-size: 18px;
 		display: flex;

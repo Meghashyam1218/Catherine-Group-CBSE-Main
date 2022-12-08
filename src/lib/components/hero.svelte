@@ -1,8 +1,9 @@
 <section class="">
-    <div class="hero-container relative overflow-hidden">
+    <div class="hero-container relative overflow-hidden  ">
         <div class="fake-border  border-[#f5f5f5]  backdrop-blur-xl border-b-0 lg:border-[20px] md:border-[15px] absolute top-0 lg:h-[120vh]  w-[100%] h-[80vh] md:h-[110vh]">
-            <div class=" mt-[150px] md:mt-[200px] flex flex-col justify-center h-[70%] md:h-[70vh]">
+            <div class=" mt-[80px] md:mt-[170px] flex flex-col justify-center h-[70%] md:h-[70vh]">
                 <h1 class=" text-5xl 2xs:text-6xl z-0 md:text-8xl lg:text-9xl text-white text-center font-black">DIVE INTO<br>LEARINING</h1>
+                <h1 class="text-white text-sm md:text-2xl font-bold text-center tracking-widest">You are the light of the world</h1>
                 <img class="w-[80%] h-[80%] object-cover mx-auto mt-6 rounded-[2.5rem]" src="./herobg.png">
             
             </div>
@@ -13,7 +14,7 @@
         </div>
        
     
-        <div class="relative z-[-50]  w-[100%] lg:h-[120vh] h-[80vh] md:h-[110vh] brightness-[.5]" style="background-image: url(/herobg.png);">
+        <div class="relative z-[-50]  w-[100%] lg:h-[120vh] h-[80vh] md:h-[110vh] brightness-[.75]" style="background-image: url(/herobg.png);">
             <!-- <div class="w-[100%]  h-[120vh]"></div> -->
         </div>
     </div>
