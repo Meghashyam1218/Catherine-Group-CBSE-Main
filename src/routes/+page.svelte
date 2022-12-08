@@ -11,6 +11,7 @@ import Highlights from "$lib/components/highlights.svelte";
 
 <section class="">
 <div class="">
+	<Navbar/>
     <Hero/>
     <Why/>
     <Highlights/>
