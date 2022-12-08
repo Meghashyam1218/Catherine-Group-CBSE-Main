@@ -1,7 +1,7 @@
 <script>
 </script>
 
-<section class="flex flex-col  max-md:items-center my-20">
+<section data-aos="fade-up" class="flex flex-col  max-md:items-center my-20">
 	<div
 		class="events-head  w-[90vw] mx-auto flex flex-col md:flex-row justify-between items-center p-4"
 	>
