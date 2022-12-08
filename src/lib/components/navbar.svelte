@@ -1,141 +1,187 @@
-<nav class="flex justify-between z-10 fixed shadow-2xl top-0 bg-cover w-full h-[8%] rounded-b-3xl" style="background-image: url(./herobg.png);">
-    <div class="grid place-self-center pl-6">
-        <a href="#" class="">
-            <button class="flex flex-row md:px-6 md:py-3 px-2 py-1 rounded-full bg-white hover:bg-black hover:text-white align-middle justify-between items-center">
-                <div class="px-2 space-y-2">
-                    <svg class="hover:fill-yellow-500 fill-yellow-500" version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
-                         width="24.75px" height="24.75px" viewBox="0 0 24.75 24.75" style="enable-background:new 0 0 24.75 24.75;" xml:space="preserve">
-            <g>
-            <path d="M0,3.875c0-1.104,0.896-2,2-2h20.75c1.104,0,2,0.896,2,2s-0.896,2-2,2H2C0.896,5.875,0,4.979,0,3.875z M22.75,10.375H2
-                   c-1.104,0-2,0.896-2,2c0,1.104,0.896,2,2,2h20.75c1.104,0,2-0.896,2-2C24.75,11.271,23.855,10.375,22.75,10.375z M22.75,18.875H2
-                   c-1.104,0-2,0.896-2,2s0.896,2,2,2h20.75c1.104,0,2-0.896,2-2S23.855,18.875,22.75,18.875z"/>
-           </g>
-                        <g>
-           </g>
-                        <g>
-           </g>
-                        <g>
-           </g>
-                        <g>
-           </g>
-                        <g>
-           </g>
-                        <g>
-           </g>
-                        <g>
-           </g>
-                        <g>
-           </g>
-                        <g>
-           </g>
-                        <g>
-           </g>
-                        <g>
-           </g>
-                        <g>
-           </g>
-                        <g>
-           </g>
-                        <g>
-           </g>
-                        <g>
-           </g>
-           </svg>
-                </div>
-                <span class="align-middle font-medium lg:block hidden pl-2 xl:text-xl lg:text-sm md:text-sm hover:text-white">Explore our resources</span>
-            </button></a>
-    </div>
-    <div class="flex flex-row items-center justify-center">
-        <svg class="fill-yellow-500 shadow-2xl mr-3 w-[12%] hover:shadow-black" version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
-             viewBox="0 0 512 512" style="enable-background:new 0 0 512 512;" xml:space="preserve">
-<g>
-	<g>
-		<g>
-			<rect x="28.354" y="195.19" width="15.513" height="290.57"/>
-            <rect x="468.137" y="195.19" width="15.513" height="290.57"/>
-            <rect x="248.242" y="85.238" width="15.513" height="47.12"/>
-            <polygon points="208.784,80.303 256,26.342 303.216,80.303 303.216,155.824 512,155.824 472.831,77.486 326.679,77.486
-				326.679,92.998 463.244,92.998 486.901,140.311 318.728,140.311 318.728,74.475 256,2.785 193.271,74.475 193.271,140.311
-				25.1,140.311 48.757,92.998 185.321,92.998 185.321,77.486 39.169,77.486 0,155.824 208.784,155.824 			"/>
-            <polygon points="491.5,163.774 475.987,163.774 475.987,171.724 36.013,171.724 36.013,163.774 20.5,163.774 20.5,187.237
-				491.5,187.237 			"/>
-            <rect x="185.323" y="493.703" width="141.36" height="15.513"/>
-            <rect x="334.533" y="493.703" width="172.768" height="15.513"/>
-            <rect x="4.697" y="493.703" width="172.768" height="15.513"/>
-            <rect x="201.032" y="470.145" width="109.942" height="15.513"/>
-            <polygon points="295.169,438.637 295.169,265.963 216.831,265.963 216.831,438.637 232.343,438.637 232.343,281.475
-				279.657,281.475 279.657,438.637 			"/>
-            <path d="M122.398,438.539V210.99H67.62v227.549H122.398z M83.133,226.503h23.754v133.698H83.133V226.503z M83.133,375.714h23.754
-				v47.313H83.133V375.714z"/>
-            <path d="M193.077,438.539V210.99h-54.778v227.549H193.077z M153.812,226.503h23.754v70.873h-23.754V226.503z M153.812,312.888
-				h23.754v110.139h-23.754V312.888z"/>
-            <path d="M373.701,438.539V210.99h-54.779v227.549H373.701z M334.435,226.503h23.754v23.754h-23.754V226.503z M334.435,265.769
-				h23.754v157.259h-23.754V265.769z"/>
-            <path d="M444.38,438.539V210.99h-54.779v227.549H444.38z M405.114,226.503h23.754v133.698h-23.754V226.503z M405.114,375.714
-				h23.754v47.313h-23.754V375.714z"/>
-            <rect x="240.392" y="367.958" width="15.513" height="15.707"/>
-            <rect x="216.731" y="446.586" width="78.533" height="15.513"/>
-		</g>
-	</g>
-</g>
-            <g>
-</g>
-            <g>
-</g>
-            <g>
-</g>
-            <g>
-</g>
-            <g>
-</g>
-            <g>
-</g>
-            <g>
-</g>
-            <g>
-</g>
-            <g>
-</g>
-            <g>
-</g>
-            <g>
-</g>
-            <g>
-</g>
-            <g>
-</g>
-            <g>
-</g>
-            <g>
-</g>
-</svg>
-        <span class="xl:text-xl lg:text-lg font-bold text-white">Catherine <br> CBSE School</span>
-    </div>
-    <div class="flex flex-row items-center xl:mr-3 lg:mr-2 pr-6">
-        <div class="xl:mr-6 lg:mr-3 lg:block hidden"><span class="xl:text-lg lg:text-base  font-semibold  text-white hover:text-yellow-500 hover:animate-pulse link-underline-blacklink link-underline link-underline-black text-black">Resorces</span></div>
-        <div class="xl:mr-6 lg:mr-3 lg:block hidden"><span class="xl:text-lg lg:text-base font-semibold  text-white hover:text-yellow-500 hover:animate-pulse link-underline-blacklink link-underline link-underline-black text-black">Community</span></div>
-        <div class="xl:mr-6 lg:mr-3 lg:block hidden"><span class="xl:text-lg font-semibold md:text-base xs:text-xs text-white hover:text-yellow-500 hover:animate-pulse link-underline-blacklink link-underline link-underline-black text-black">Admissions</span></div>
-        <div><svg xmlns:xlink="http://www.w3.org/1999/xlink" width="28" height="28" viewBox="0 0 28 28" xmlns="http://www.w3.org/2000/svg" role="img"><path d="M26.832 14C26.832 13.2262 26.832 12.8393 26.8142 12.5125C26.4805 6.39975 21.5989 1.5182 15.4862 1.18447C15.1594 1.16663 14.7725 1.16663 13.9987 1.16663C13.2249 1.16663 12.838 1.16663 12.5112 1.18447C6.39849 1.5182 1.51694 6.39975 1.18321 12.5125C1.16537 12.8393 1.16537 13.2262 1.16537 14V23.1666C1.16537 24.7303 1.16537 25.5122 1.57866 26.0508C1.68506 26.1895 1.80918 26.3136 1.94784 26.42C2.48646 26.8333 3.26831 26.8333 4.83203 26.8333H13.9987C14.7725 26.8333 15.1594 26.8333 15.4862 26.8154C21.5989 26.4817 26.4805 21.6002 26.8142 15.4875C26.832 15.1606 26.832 14.7737 26.832 14Z" fill="#FFFFFF" stroke="#FFFFFF"></path> <path d="M10.5 10.4364C10.5 8.53851 12.067 7 14 7C15.933 7 17.5 8.53851 17.5 10.4364C17.5 12.3342 14 13.4909 14 15.2091V16.3333" stroke="#0C1637" stroke-linecap="round" fill="#FFFFFF"></path> <ellipse cx="14.0586" cy="20.125" rx="0.875" ry="0.875" fill="#0C1637"></ellipse></svg></div>
-    </div>
 
-    </nav>
+<script>
+	import { fade,slide } from 'svelte/transition';
+    var nav = true;
+    function navToggle(){
+        nav = !nav;
+		console.log(nav)
+    }
+</script>
+<section class="z-[999] fixed top-0">
+<div in:fade class="w-[100vw]  transition-all duration-500 ease-linear  bg-white h-[70px] md:h-[100px]  pt-[5px] md:pt-[20px] px-[42px] {nav === false ? ' ' : 'rounded-b-[2.5rem] shadow-md'} ">
+	<div class="nav grid">
+		<div>
+			{#if nav}
+			<button 
+				aria-label="Open main menu "
+				tabindex="1"
+				aria-haspopup="true"
+				class="bg-[#0c1637] button-menu button--white header__menu-btn-open transition-all duration-500 ease-linear "
+							on:click={navToggle}
+							>	
 
+				<span class="button__icon-menu">
+					<svg 
+                        class="mr-0 lg:mr-[20px] fill-white"
+						width="24"
+						height="24"
+						viewBox="0 0 24 24"
+						xmlns="http://www.w3.org/2000/svg"
+						role="img"
+					>
+						<path
+							fill-rule="evenodd"
+							clip-rule="evenodd"
+							d="M23.5 6C23.7761 6 24 5.77614 24 5.5C24 5.22386 23.7761 5 23.5 5L0.5 5C0.223858 5 0 5.22386 0 5.5C0 5.77614 0.223858 6 0.5 6L23.5 6ZM24 12.5C24 12.7761 23.7761 13 23.5 13L0.5 13C0.223858 13 0 12.7761 0 12.5C0 12.2239 0.223858 12 0.5 12L23.5 12C23.7761 12 24 12.2239 24 12.5ZM24 19.5C24 19.7761 23.7761 20 23.5 20L0.5 20C0.223858 20 0 19.7761 0 19.5C0 19.2239 0.223858 19 0.5 19L23.5 19C23.7761 19 24 19.2239 24 19.5Z"
+						/>
+					</svg>
+				</span>
+				<span class="hidden text-white lg:inline">Explore more</span>
+			</button>
+			{:else}
+			
+			
+			<button 
+				aria-label="Open main menu "
+				tabindex="1"
+				aria-haspopup="true"
+				class="bg-[#fff] button-menu"
+				on:click={navToggle}
+				>
+				<span class="button__icon ">
+					<svg xmlns="http://www.w3.org/2000/svg" class="fill-[#0c1637]" viewBox="0 0 50 50" role="img"><path d="M7.719 6.281 6.28 7.72 23.563 25 6.28 42.281 7.72 43.72 25 26.437 42.281 43.72l1.438-1.438L26.437 25 43.72 7.719 42.28 6.28 25 23.563Z"></path></svg>
+				</span>
+				<span class="hidden ml-2 lg:inline">Close</span>
+			</button>
+			{/if}
+			
+			
+		</div>
+        <div class="flex items-center justify-center pointer-events-none">
+			<img src="./logo.png" class="h-[40px] mr-2">
+            <span class="font-bold">Catherine CBSE</span>
+        </div>
+			<div class="header__nav anim--fade--reverse anim--fade--reverse--in lg:flex justify-end items-center hidden">
+				<ul class="header__nav-links flex ">
+					<li class=" {nav === false ? ' hidden  ' : 'inline-block'}">
+						<a href="/resources" aria-label="Educational Resources" tabindex="1" class="link text-sm xl:text-base text-[#0c1637]"
+							><span>Mandatory Disclosure</span></a
+						>
+					</li>
+					<li class="  {nav === false ? ' hidden ' : 'inline-block ml-[24px]'}">
+						<a href="/community" aria-label="Community" tabindex="1" class="link text-[#0c1637]"
+							><span>Contact Us</span></a
+						>
+					</li>
+					<li class=" inline-block ml-[24px]">
+						<a href="/community" aria-label="Community" tabindex="1" class="link flex flex-roww text-[#0c1637]"
+							><span class="inline mr-2"><svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
+								<path stroke-linecap="round" stroke-linejoin="round" d="M20.25 8.511c.884.284 1.5 1.128 1.5 2.097v4.286c0 1.136-.847 2.1-1.98 2.193-.34.027-.68.052-1.02.072v3.091l-3-3c-1.354 0-2.694-.055-4.02-.163a2.115 2.115 0 01-.825-.242m9.345-8.334a2.126 2.126 0 00-.476-.095 48.64 48.64 0 00-8.048 0c-1.131.094-1.976 1.057-1.976 2.192v4.286c0 .837.46 1.58 1.155 1.951m9.345-8.334V6.637c0-1.621-1.152-3.026-2.76-3.235A48.455 48.455 0 0011.25 3c-2.115 0-4.198.137-6.24.402-1.608.209-2.76 1.614-2.76 3.235v6.226c0 1.621 1.152 3.026 2.76 3.235.577.075 1.157.14 1.74.194V21l4.155-4.155" />
+							  </svg>
+							  </span><a class="inline">Live Chat</a></a
+						>
+						
+					</li>
+				</ul>
+			</div>
+	</div>
+    
+</div>
+{#if !nav}
+<div transition:slide class="absolute top-[70px] md:top-[100px] w-[100vw] ">
+    <div class="flex border-b-[1px] rounded-b-[2.5rem] bg-white px-[20vw] border-t-[1px] flex-row">
+        <div class="w-[50%] border-r-[1px] pb-10 pt-10">
+            <uL>
+                <li class="p-4"><a class=" menu-list text-2xl after:h-[3px] cursor-pointer font-semibold text-[#0c1637]">About US</a></li>
+                <li class="p-4"><a class=" menu-list text-2xl after:h-[3px] cursor-pointer font-semibold text-[#0c1637]">Infrastructure</a></li>
+                <li class="p-4"><a class=" menu-list text-2xl after:h-[3px] cursor-pointer font-semibold text-[#0c1637]">Admissions</a></li>
+                <li class="p-4"><a class=" menu-list text-2xl after:h-[3px] cursor-pointer font-semibold text-[#0c1637]">Educators</a></li>
+                <li class="p-4"><a class=" menu-list text-2xl after:h-[3px] cursor-pointer font-semibold text-[#0c1637]">Curriculum</a></li>
+                <li class="p-4"><a class=" menu-list text-2xl after:h-[3px] cursor-pointer font-semibold text-[#0c1637]">Events</a></li>
+            </uL>
+
+        </div>
+        <div class="w-[50%] pt-10 pl-10 pb-10">
+            <h1 class="text-2xl text-[#0c1637] font-medium">Quick Links</h1>
+            <ul class="py-4">
+                <li class="p-3"><a class="menu-list cursor-pointer	 text-xl p-0 after:h-[1px] font-light">Mandatory Disclosure</a></li>
+                <li class="p-3"><a class="menu-list cursor-pointer	 text-xl p-0 after:h-[1px] font-light">Contact Us</a></li>
+                <li class="p-3"><a class="menu-list cursor-pointer	 text-xl p-0 after:h-[1px] font-light">Catherine College</a></li>
+                <li class="p-3"><a class="menu-list cursor-pointer	 text-xl p-0 after:h-[1px] font-light">Catherine School</a></li>
+                <li class="p-3"><a class="menu-list cursor-pointer	 text-xl p-0 after:h-[1px] font-light">Directions to Catherine</a></li>
+            </ul>
+        </div>
+
+    </div>
+</div>
+{/if}
+</section>
 <style>
-    .link-underline {
-        border-bottom-width: 0;
-        background-image: linear-gradient(transparent, transparent), linear-gradient(#fff, #fff);
-        background-size: 0 3px;
-        background-position: 0 100%;
-        background-repeat: no-repeat;
-        transition: background-size .5s ease-in-out;
-    }
 
-    .link-underline-black {
-        background-image: linear-gradient(transparent, transparent), linear-gradient(#eab308, #eab308)
+@media only screen and (max-width: 640px){
+    .nav{
+        grid-template-columns: 1fr 1fr;
     }
+}
+	.nav {
+		grid-template-columns: 1fr 180px 1fr;
+	}
+	.button-menu {
+		padding: 15px 30px;
+		border-radius: 34px;
+		font-size: 18px;
+		display: flex;
+		align-items: center;
+		transition: background-color 0.4s ease, background 0.4s ease, color 0.4s ease;
+		border: none;
+	}
 
-    .link-underline:hover {
-        background-size: 100% 3px;
-        background-position: 0 100%
-    }
+	.button-menu span {
+		/* color: #fff; */
+	}
+
+	.button__icon svg {
+		width: 24px;
+		height: 24px;
+		transition: all 0.4s ease;
+		/* margin-right: 20px; */
+		/* fill: #fff; */
+	}
+
+	.button-menu:hover .button__icon svg
+	/* .button-menu:focus .button__icon svg */
+	{
+		transform: rotate(90deg);
+		transition: all 0.4s ease;
+
+	}
+
+	.menu-list {
+  display: inline-block;
+  position: relative;
+  /* color: #0087ca; */
+}
+
+.menu-list::after {
+  content: '';
+  position: absolute;
+  width: 100%;
+  transform: scaleX(0);
+  /* height: 3px; */
+  bottom: 0;
+  left: 0;
+  background-color: #0c1637;
+  transform-origin: bottom right;
+  transition: transform 0.25s ease-out;
+}
+
+.menu-list:hover::after {
+  transform: scaleX(1);
+  transform-origin: bottom left;
+}
 </style>
+
+
+
+
+
