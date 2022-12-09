@@ -7,6 +7,7 @@ import Cards from "$lib/components/cards.svelte"
 import Highlights from "$lib/components/highlights.svelte";
 import Top from "$lib/components/top.svelte";
 import Footer from "$lib/components/footer.svelte";
+	import Joinus from "$lib/components/joinus.svelte";
 </script>
 
 
@@ -17,7 +18,8 @@ import Footer from "$lib/components/footer.svelte";
     <Why/>
     <Highlights/>
     <Cards/>
+    
     <Footer/>
-
+    
 </div>
 </section>
