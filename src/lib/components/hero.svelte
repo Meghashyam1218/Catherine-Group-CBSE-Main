@@ -313,10 +313,10 @@
 <section class="">
 	<div class="hero-container relative overflow-hidden  ">
 		<div
-			class="fake-border  border-[#f5f5f5]  backdrop-blur-xl border-b-0 lg:border-[20px] md:border-[15px] absolute top-0 lg:h-[120vh]  w-[100%] h-[80vh] md:h-[110vh]"
+			class="fake-border  border-[#f5f5f5]  backdrop-blur-xl border-b-0 lg:border-[20px] md:border-[15px] absolute top-0 lg:h-[120vh]  w-[100%] h-[90vh] md:h-[110vh]"
 		>
 			<div
-				class=" mt-[60px] md:mt-[130px] lg:mt-[170px] flex flex-col justify-center h-[70vh] md:h-[70vh]">
+				class=" mt-[60px] md:mt-[130px] lg:mt-[170px] flex flex-col justify-center h-[80vh] md:h-[70vh]">
 				<div class="nav absolute top-[20px] w-[100%] px-5 grid items-center">
 					<div>
 						<button
@@ -465,7 +465,7 @@
 		</div>
 
 		<div
-			class="relative z-[-50]  w-[100%] lg:h-[120vh] h-[80vh] md:h-[110vh] brightness-[.65]"
+			class="relative z-[-50]  w-[100%] lg:h-[120vh] h-[90vh] md:h-[110vh] brightness-[.65]"
 			style="background-image: url(/herobg.png);"
 		>
 			<!-- <div class="w-[100%]  h-[120vh]"></div> -->
