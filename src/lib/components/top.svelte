@@ -1,14 +1,31 @@
 <script>
+	import { onMount } from 'svelte';
+
 	import { scale, fade, slide } from 'svelte/transition';
 
 	
+	import { gsap } from 'gsap/dist/gsap';
+	import { ScrollTrigger } from 'gsap/dist/ScrollTrigger';
 	// import { onMount } from 'svelte';
 	var nav = true;
 	function navToggle() {
 		nav = !nav;
 		console.log(nav);
 	}
-	
+	onMount(() =>{
+		gsap.registerPlugin(ScrollTrigger);
+
+		gsap.to('.navmain', {
+			scrollTrigger: {
+				trigger: '#dontknow',
+				toggleActions: 'restart none none reverse',
+				start: 'bottom top',
+				markers:true
+			},
+			duration: 0.3,
+			translateY: '0px'
+		});
+	})
 </script>
 
 <section class="z-[999] h-[0px]  fixed top-0">
@@ -290,7 +307,7 @@
 <section class="">
 	<div class="hero-container relative overflow-hidden  ">
 		<div
-			class="fake-border2  border-[#f5f5f5]  backdrop-blur-xl lg:border-t-[20px] lg:border-x-[20px] md:border-t-[15px] md:border-x-[15px]  absolute top-0 lg:h-[70vh]  w-[100%] h-[60vh] md:h-[60vh]"
+			class="fake-border2  border-[#f5f5f5]  backdrop-blur-xl lg:border-t-[20px] lg:border-x-[20px] md:border-t-[15px] md:border-x-[15px]  absolute top-0 max-h-[500px] lg:h-[70vh]  w-[100%] h-[60vh] md:h-[60vh]"
 		>
 			<div
 				class=" navfake mt-[60px] md:mt-[130px] lg:mt-[170px] mb-10 flex flex-col justify-center">
@@ -436,7 +453,7 @@
 		</div>
 
 		<div
-			class="relative z-[-50]  w-[100%] lg:h-[70vh] h-[60vh] md:h-[60vh] brightness-[.65]"
+			class="relative z-[-50]  w-[100%] max-h-[500px] lg:h-[70vh] h-[60vh] md:h-[60vh] brightness-[.65]"
 			style="background-image: url(/herobg.png);" >
 			<!-- <div class="w-[100%]  h-[120vh]"></div> -->
 		</div>

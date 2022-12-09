@@ -1,14 +1,39 @@
 <script>
 	import { scale, fade, slide } from 'svelte/transition';
 
-	// import { gsap } from 'gsap/dist/gsap';
-	// import { ScrollTrigger } from 'gsap/dist/ScrollTrigger';
-	// import { onMount } from 'svelte';
+	import { gsap } from 'gsap/dist/gsap';
+	import { ScrollTrigger } from 'gsap/dist/ScrollTrigger';
+	import { onMount } from 'svelte';
 	var nav = true;
 	function navToggle() {
 		nav = !nav;
 		console.log(nav);
 	}
+	onMount(()=>{
+		gsap.registerPlugin(ScrollTrigger);
+
+		gsap.to('.fake-border', {
+			scrollTrigger: {
+				trigger: '.logo',
+				toggleActions: 'restart none none reverse',
+				start: '30% top'
+				// markers:true
+			},
+			duration: 0.5,
+			border: 0
+		});
+		
+		gsap.to('.navmain', {
+			scrollTrigger: {
+				trigger: '.logo',
+				toggleActions: 'restart none none reverse',
+				start: '30% top'
+				// markers:true
+			},
+			duration: 0.3,
+			translateY: '0px'
+		});
+	})
 	
 </script>
 
