@@ -290,7 +290,7 @@
 <section class="">
 	<div class="hero-container relative overflow-hidden  ">
 		<div
-			class="fake-border  border-[#f5f5f5]  backdrop-blur-xl lg:border-t-[20px] lg:border-x-[20px] md:border-t-[15px] md:border-x-[15px]  absolute top-0 lg:h-[70vh]  w-[100%] h-[60vh] md:h-[60vh]"
+			class="fake-border2  border-[#f5f5f5]  backdrop-blur-xl lg:border-t-[20px] lg:border-x-[20px] md:border-t-[15px] md:border-x-[15px]  absolute top-0 lg:h-[70vh]  w-[100%] h-[60vh] md:h-[60vh]"
 		>
 			<div
 				class=" navfake mt-[60px] md:mt-[130px] lg:mt-[170px] mb-10 flex flex-col justify-center">
