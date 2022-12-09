@@ -6,7 +6,6 @@ import Why from "$lib/components/why.svelte";
 import Cards from "$lib/components/cards.svelte"
 import Highlights from "$lib/components/highlights.svelte";
 import Top from "$lib/components/top.svelte";
-
 </script>
 
 
