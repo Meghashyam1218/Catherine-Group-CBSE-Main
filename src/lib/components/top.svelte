@@ -1,8 +1,7 @@
 <script>
 	import { scale, fade, slide } from 'svelte/transition';
 
-	// import { gsap } from 'gsap/dist/gsap';
-	// import { ScrollTrigger } from 'gsap/dist/ScrollTrigger';
+	
 	// import { onMount } from 'svelte';
 	var nav = true;
 	function navToggle() {
@@ -291,11 +290,11 @@
 <section class="">
 	<div class="hero-container relative overflow-hidden  ">
 		<div
-			class="fake-border  border-[#f5f5f5]  backdrop-blur-xl border-b-0 lg:border-[20px] md:border-[15px] absolute top-0 lg:h-[120vh]  w-[100%] h-[90vh] md:h-[110vh]"
+			class="fake-border  border-[#f5f5f5]  backdrop-blur-xl lg:border-t-[20px] lg:border-x-[20px] md:border-t-[15px] md:border-x-[15px]  absolute top-0 lg:h-[70vh]  w-[100%] h-[60vh] md:h-[60vh]"
 		>
 			<div
-				class=" mt-[60px] md:mt-[130px] lg:mt-[170px] flex flex-col justify-center h-[80vh] md:h-[70vh]">
-				<div class="nav absolute top-[20px] w-[100%] px-5 grid items-center">
+				class=" navfake mt-[60px] md:mt-[130px] lg:mt-[170px] mb-10 flex flex-col justify-center">
+				<div id="dontknow" class="nav absolute top-[20px] w-[100%] px-5 grid items-center">
 					<div>
 						<button
 							aria-label="Open main menu "
@@ -346,11 +345,11 @@
 									href="/community"
 									aria-label="Community"
 									tabindex="1"
-									class="link font-medium menu-list menu-list2 after:h-[1px] text-[#fff]"
+									class="link font-medium menu-list after:h-[1px] text-[#fff]"
 									><span>Contact Us</span></a
 								>
 							</li>
-							<!-- <li class=" inline-block ml-[24px]">
+							<li class=" inline-block ml-[24px]">
 								<a
 									href="/community"
 									aria-label="Community"
@@ -373,22 +372,16 @@
 										</svg>
 									</span><a class=" hidden lg:menu-list after:h-[1px]">Live Chat</a></a
 								>
-							</li> -->
+							</li>
 						</ul>
 					</div>
 				</div>
-				<h1
-					class="dive-text text-5xl mt-5 2xs:text-6xl z-0 md:text-8xl lg:text-9xl text-white text-center font-black">
-					DIVE INTO<br />LEARINING
-				</h1>
-				<h1 class="text-white text-sm md:text-2xl font-bold text-center tracking-widest">
-					You are the light of the world
-				</h1>
-				<img
-					class="w-[80%] h-[500px] md:h-[80%] max-w-[1500px] object-cover mx-auto mt-6 rounded-[2.5rem]"
-					src="./herobg.png"/>
+				
+				
 			</div>
-			<a class="z-[-30] md:block hidden absolute scale-y-[-1] scale-x-[-1] left-[-5px] top-[-5px]">
+            <a class="m-10"><span class=" text-white"><a class="p-2 text-white font-regular tracking-widest">Home</a>-</span><span class=""><a class="p-2 text-white tracking-widest">Component</a></span></a>
+			<h1 class="2xs:ml-10 mt-5 text-6xl md:text-6xl lg:text-8xl font-bold text-white max-w-[1000px]">Component Heading</h1>
+            <a class="z-[-30] md:block hidden absolute scale-y-[-1] scale-x-[-1] left-[-5px] top-[-5px]">
                 <svg
 					xmlns="http://www.w3.org/2000/svg"
 					viewBox="0 0 36 36"
@@ -443,9 +436,8 @@
 		</div>
 
 		<div
-			class="relative z-[-50]  w-[100%] lg:h-[120vh] h-[90vh] md:h-[110vh] brightness-[.65]"
-			style="background-image: url(/herobg.png);"
-		>
+			class="relative z-[-50]  w-[100%] lg:h-[70vh] h-[60vh] md:h-[60vh] brightness-[.65]"
+			style="background-image: url(/herobg.png);" >
 			<!-- <div class="w-[100%]  h-[120vh]"></div> -->
 		</div>
 	</div>
@@ -505,11 +497,6 @@
 		background-color: #0c1637;
 		transform-origin: bottom right;
 		transition: transform 0.25s ease-out;
-	}
-    .menu-list2::after {
-		
-		background-color: #fff;
-		
 	}
 
 	.menu-list:hover::after {
