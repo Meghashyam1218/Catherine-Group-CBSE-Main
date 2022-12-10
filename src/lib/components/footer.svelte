@@ -9,20 +9,15 @@
 		let timeline_footer = gsap.timeline({
 			scrollTrigger: {
 				trigger: '#joinnowf',
-				toggleActions: 'restart none none reverse',
-				start: '30% center',
+				toggleActions: 'restart none none reset',
+				start: '0% center',
 				// markers: true
 			}
 		});
 
 		timeline_footer
 			.from('#joinnow', {
-                ScrollTrigger: {
-				trigger: '#joinnowf',
-				toggleActions: 'restart none none none',
-				start: 'center bottom',
-				// markers: true
-			},
+              
 				// duration:1,
 				opacity: 0,
 				translateY: '-20px'
@@ -41,7 +36,7 @@
 	});
 </script>
 
-<section class="h-[125h]" data-aos="fade-up" data-aos-anchor-placement="center-bottom">
+<section class="h-[125h]" data-aos="fade-up" data-aos-anchor-placement="top-center">
 	<div>
 		<div class="bg-[#0c1637] h-[125vh] rounded-t-[40px]">
 			<div
@@ -66,9 +61,9 @@
 					</div>
 					<div id="joinnowbtn" class="flex justify-center mt-4">
 						<button
-							class="flex flex-row bg-white shadow-2xl shadow-gray-600 text-[#0c1637] xl:text-xl text-base font-medium p-2 xl:p-4 rounded-full duration-700 hover:bg-[#0c1637] hover:text-white"
+							class=" group flex flex-row bg-white shadow-2xl shadow-gray-600 text-[#0c1637] xl:text-xl text-base font-medium p-2 xl:p-4 rounded-full duration-700 hover:bg-[#0c1637] hover:text-white"
 						>
-							<img class="px-3 rotate-[315deg]" src="./arrow.svg" /> Admissions Enquiry
+						<div class="px-3"><svg  class="rotate-[315deg] duration-700 group-hover:fill-white" viewBox="0 0 24 25" role="img" data-v-ab5c9590="" width="24"  height="25" ><path fill-rule="evenodd" clip-rule="evenodd" d="M16.961 18.085a.459.459 0 0 0 .023.68.545.545 0 0 0 .732-.02l5.648-5.592.333-.33-.333-.33-5.572-5.516a.545.545 0 0 0-.732-.02.459.459 0 0 0-.023.68l4.76 4.712H.713c-.276 0-.5.224-.498.5 0 .276.226.5.502.5h21.028l-4.784 4.736Z"></path></svg></div> Admissions Enquiry
 						</button>
 					</div>
 				</div>

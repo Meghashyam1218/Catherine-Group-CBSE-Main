@@ -385,7 +385,7 @@
 						<ul class="header__nav-links flex ">
 							<li class=" {nav === false ? ' hidden  ' : 'inline-block'}">
 								<a
-									href="/resources"
+									href="/md"
 									aria-label="Educational Resources"
 									tabindex="1"
 									class=" text-sm xl:text-base text-[#fff] link font-medium menu-list menu-list2 after:h-[1px] "
@@ -394,7 +394,7 @@
 							</li>
 							<li class="  {nav === false ? ' hidden ' : 'inline-block ml-[24px]'}">
 								<a
-									href="/community"
+									href="/contactus"
 									aria-label="Community"
 									tabindex="1"
 									class="link font-medium menu-list menu-list2 after:h-[1px] text-[#fff]"

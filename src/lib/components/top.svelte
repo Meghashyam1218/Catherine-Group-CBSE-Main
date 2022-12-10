@@ -38,7 +38,10 @@
 				trigger: '#dontknow',
 				toggleActions: 'restart none none reverse',
 				start: 'bottom top',
-			}
+			},
+			ease:"cric.out",
+			duration: 0.3,
+			translateY: '0px'
 		});
 	})
 
@@ -113,7 +116,7 @@
 				<ul class="header__nav-links flex ">
 					<li class=" {nav === false ? ' hidden  ' : 'inline-block'}">
 						<a
-							href="/resources"
+							href="/md"
 							aria-label="Educational Resources"
 							tabindex="1"
 							class="link menu-list after:h-[1px] text-sm xl:text-base text-[#0c1637]"
@@ -122,7 +125,7 @@
 					</li>
 					<li class="  {nav === false ? ' hidden ' : 'inline-block ml-[24px]'}">
 						<a
-							href="/community"
+							href="/contactus"
 							aria-label="Community"
 							tabindex="1"
 							class="link menu-list after:h-[1px] text-[#0c1637]"><span>Contact Us</span></a
@@ -194,7 +197,7 @@
 					<ul class="header__nav-links flex ">
 						<li class=" {nav === false ? ' hidden  ' : 'inline-block'}">
 							<a
-								href="/resources"
+								href="/md"
 								aria-label="Educational Resources"
 								tabindex="1"
 								class="link menu-list after:h-[1px] text-sm xl:text-base text-[#0c1637]"
@@ -203,7 +206,7 @@
 						</li>
 						<li class="  {nav === false ? ' hidden ' : 'inline-block ml-[24px]'}">
 							<a
-								href="/community"
+								href="/contactus"
 								aria-label="Community"
 								tabindex="1"
 								class="link menu-list after:h-[1px] text-[#0c1637]"><span>Contact Us</span></a
@@ -248,7 +251,7 @@
 				>
 					<uL>
 						<li class=" p-2 md:p-4">
-							<a
+							<a href="/aboutus"
 								class=" menu-list text-xl md:text-2xl after:h-[3px] cursor-pointer font-semibold text-[#0c1637]"
 								>About US</a
 							>
@@ -366,7 +369,7 @@
 						<ul class="header__nav-links flex ">
 							<li class=" {nav === false ? ' hidden  ' : 'inline-block'}">
 								<a
-									href="/resources"
+									href="/md"
 									aria-label="Educational Resources"
 									tabindex="1"
 									class="link menu-list after:h-[1px] font-medium text-sm xl:text-base text-[#fff]"
@@ -375,7 +378,7 @@
 							</li>
 							<li class="  {nav === false ? ' hidden ' : 'inline-block ml-[24px]'}">
 								<a
-									href="/community"
+									href="/contactus"
 									aria-label="Community"
 									tabindex="1"
 									class="link font-medium menu-list after:h-[1px] text-[#fff]"
@@ -413,8 +416,8 @@
 
 			</div>
 
-            <a class="m-10"><span class=" text-white"><a href="/" class="p-2 text-white font-regular tracking-widest">Home</a>-</span><span class=""><a class="p-2 text-white tracking-widest">{name}</a></span></a>
-			<h1 class="2xs:ml-10 mt-5 text-6xl md:text-6xl lg:text-8xl font-bold text-white max-w-[1000px]">{heading}</h1>
+            <a  id="bread" class="m-10"><span class=" text-white"><a href="/" class="p-2 text-white font-regular tracking-widest">Home</a>-</span><span class=""><a class="p-2 text-white tracking-widest">{name}</a></span></a>
+			<h1 id="component"  class="2xs:ml-10 mt-5 text-6xl md:text-6xl lg:text-8xl font-bold text-white max-w-[1000px]">{heading}</h1>
 
             <a class="z-[-30] md:block hidden absolute scale-y-[-1] scale-x-[-1] left-[-5px] top-[-5px]">
                 <svg

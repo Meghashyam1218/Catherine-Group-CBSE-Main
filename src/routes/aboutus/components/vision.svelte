@@ -1,9 +1,9 @@
 <section class="h-full ">
-    <div class="lg:w-[80vw] flex ml-auto mr-auto p-8 lg:p-20 flex-col  md:flex-row text-justify md:text-start items-center justify-center">
-       <div class="basis-1/2 ">
+    <div class="lg:max-w-[1100px] xl:max-w-[80vw] flex ml-auto mr-auto  flex-col  lg:flex-row text-justify  items-center justify-center">
+       <div data-aos="zoom-in" data-aos-once="true" class="basis-1/2 p-4 m-4 md:max-w-[600px] ">
            <img src="/aboutus.webp" alt="" class="rounded-[25%] sticky ">
        </div>
-       <div class="basis-1/2 text-neutral-800 flex flex-col  justify-center md:pl-14 xl:pr-0 my-6 md:my-0">
+       <div data-aos="fade-up" data-aos-once="true" class="basis-1/2 text-neutral-800 flex flex-col  justify-center p-4 m-4">
            <h1 class="text-3xl font-semibold text-center md:text-start "> Vission</h1>
            <br>
            <p class="md:text-xl text-base">Catherine Schools was founded in 1983 by R.D.Ratna Raju and Lt. Prof (Mrs) Satya Bala. This Christian Minority Institution educates,nurtures and inspires girls and boys of diverse backgrounds to acheive their highest academic and creative potential, to embrase ethical values, and to become active cintributors to their communities.
