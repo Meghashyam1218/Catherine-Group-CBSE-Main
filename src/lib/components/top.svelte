@@ -1,17 +1,18 @@
 <script>
 	import { onMount } from 'svelte';
-
-	import { scale, fade, slide } from 'svelte/transition';
-
-	
 	import { gsap } from 'gsap/dist/gsap';
 	import { ScrollTrigger } from 'gsap/dist/ScrollTrigger';
-	// import { onMount } from 'svelte';
+	import { scale, fade, slide } from 'svelte/transition';
+	export let name = "Component"
+	export let heading = "Component Heading"
+	export let bgImage = "/herobg.png"
+
 	var nav = true;
 	function navToggle() {
 		nav = !nav;
 		console.log(nav);
 	}
+
 	onMount(() =>{
 		gsap.registerPlugin(ScrollTrigger);
 		let timeline_top = gsap.timeline({defaults:{duration:.6}})
@@ -19,17 +20,17 @@
 		.from('#dontknow',{
 			opacity:0,
 			translateY:'-30px'
-			
+
 		})
 		.from('#bread',{
 			opacity:0,
 			translateY:'30px'
-			
+
 		})
 		.from('#component',{
 			opacity:0,
 			translateY:'30px'
-			
+
 		})
 		;
 		gsap.to('.navmain', {
@@ -37,13 +38,10 @@
 				trigger: '#dontknow',
 				toggleActions: 'restart none none reverse',
 				start: 'bottom top',
-				// markers:true
-			},
-			duration: 0.3,
-			ease:"cric.out",
-			translateY: '0px'
+			}
 		});
 	})
+
 </script>
 
 <section class="z-[999] h-[0px]  fixed top-0">
@@ -411,11 +409,13 @@
 						</ul>
 					</div>
 				</div>
-				
-				
+
+
 			</div>
-            <a id="bread" class="m-10"><span class=" text-white"><a class="p-2 text-white font-regular tracking-widest">Home</a>-</span><span class=""><a class="p-2 text-white tracking-widest">Component</a></span></a>
-			<h1 id="component" class="2xs:ml-10 mt-5 text-6xl md:text-6xl lg:text-8xl font-bold text-white max-w-[1000px]">Component Heading</h1>
+
+            <a class="m-10"><span class=" text-white"><a href="/" class="p-2 text-white font-regular tracking-widest">Home</a>-</span><span class=""><a class="p-2 text-white tracking-widest">{name}</a></span></a>
+			<h1 class="2xs:ml-10 mt-5 text-6xl md:text-6xl lg:text-8xl font-bold text-white max-w-[1000px]">{heading}</h1>
+
             <a class="z-[-30] md:block hidden absolute scale-y-[-1] scale-x-[-1] left-[-5px] top-[-5px]">
                 <svg
 					xmlns="http://www.w3.org/2000/svg"
@@ -470,10 +470,8 @@
 			>
 		</div>
 
-		<div
-			class="relative z-[-50]  w-[100%] max-h-[500px] lg:h-[70vh] h-[60vh] md:h-[60vh] brightness-[.65]"
-			style="background-image: url(/herobg.png);" >
-			<!-- <div class="w-[100%]  h-[120vh]"></div> -->
+		<div class="relative z-[-50]  w-[100%] max-h-[500px] lg:h-[70vh] h-[60vh] md:h-[60vh] brightness-[.65]"
+			 style={`background-image: url(${bgImage});`} >
 		</div>
 	</div>
 </section>
