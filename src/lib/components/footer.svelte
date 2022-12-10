@@ -20,8 +20,8 @@
                 ScrollTrigger: {
 				trigger: '#joinnowf',
 				toggleActions: 'restart none none none',
-				start: '30% bottom',
-				markers: true
+				start: 'center bottom',
+				// markers: true
 			},
 				// duration:1,
 				opacity: 0,
@@ -41,10 +41,11 @@
 	});
 </script>
 
-<section class="h-[125h]">
+<section class="h-[125h]" data-aos="fade-up" data-aos-anchor-placement="center-bottom">
 	<div>
 		<div class="bg-[#0c1637] h-[125vh] rounded-t-[40px]">
 			<div
+                
 				id="joinnowf"
 				class=" bg-cover h-[75vh] rounded-[40px]"
 				style="background-image: url(./bgfooter.webp);"
