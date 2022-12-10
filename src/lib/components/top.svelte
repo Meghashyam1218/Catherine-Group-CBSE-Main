@@ -14,13 +14,30 @@
 	}
 	onMount(() =>{
 		gsap.registerPlugin(ScrollTrigger);
-
+		let timeline_top = gsap.timeline({defaults:{duration:.6}})
+		timeline_top
+		.from('#dontknow',{
+			opacity:0,
+			translateY:'-30px'
+			
+		})
+		.from('#bread',{
+			opacity:0,
+			translateY:'30px'
+			
+		})
+		.from('#component',{
+			opacity:0,
+			translateY:'30px'
+			
+		})
+		;
 		gsap.to('.navmain', {
 			scrollTrigger: {
 				trigger: '#dontknow',
 				toggleActions: 'restart none none reverse',
 				start: 'bottom top',
-				markers:true
+				// markers:true
 			},
 			duration: 0.3,
 			ease:"cric.out",
@@ -397,8 +414,8 @@
 				
 				
 			</div>
-            <a class="m-10"><span class=" text-white"><a class="p-2 text-white font-regular tracking-widest">Home</a>-</span><span class=""><a class="p-2 text-white tracking-widest">Component</a></span></a>
-			<h1 class="2xs:ml-10 mt-5 text-6xl md:text-6xl lg:text-8xl font-bold text-white max-w-[1000px]">Component Heading</h1>
+            <a id="bread" class="m-10"><span class=" text-white"><a class="p-2 text-white font-regular tracking-widest">Home</a>-</span><span class=""><a class="p-2 text-white tracking-widest">Component</a></span></a>
+			<h1 id="component" class="2xs:ml-10 mt-5 text-6xl md:text-6xl lg:text-8xl font-bold text-white max-w-[1000px]">Component Heading</h1>
             <a class="z-[-30] md:block hidden absolute scale-y-[-1] scale-x-[-1] left-[-5px] top-[-5px]">
                 <svg
 					xmlns="http://www.w3.org/2000/svg"
