@@ -1,14 +1,47 @@
 <script>
+	import { onMount } from 'svelte';
+	import { gsap } from 'gsap/dist/gsap';
+	import { ScrollTrigger } from 'gsap/dist/ScrollTrigger';
 	import { scale, fade, slide } from 'svelte/transition';
+	export let name = "Component"
+	export let heading = "Component Heading"
+	export let bgImage = "/herobg.png"
 
-	
-	// import { onMount } from 'svelte';
 	var nav = true;
 	function navToggle() {
 		nav = !nav;
 		console.log(nav);
 	}
-	
+
+	onMount(() =>{
+		gsap.registerPlugin(ScrollTrigger);
+		let timeline_top = gsap.timeline({defaults:{duration:.6}})
+		timeline_top
+		.from('#dontknow',{
+			opacity:0,
+			translateY:'-30px'
+
+		})
+		.from('#bread',{
+			opacity:0,
+			translateY:'30px'
+
+		})
+		.from('#component',{
+			opacity:0,
+			translateY:'30px'
+
+		})
+		;
+		gsap.to('.navmain', {
+			scrollTrigger: {
+				trigger: '#dontknow',
+				toggleActions: 'restart none none reverse',
+				start: 'bottom top',
+			}
+		});
+	})
+
 </script>
 
 <section class="z-[999] h-[0px]  fixed top-0">
@@ -290,7 +323,7 @@
 <section class="">
 	<div class="hero-container relative overflow-hidden  ">
 		<div
-			class="fake-border2  border-[#f5f5f5]  backdrop-blur-xl lg:border-t-[20px] lg:border-x-[20px] md:border-t-[15px] md:border-x-[15px]  absolute top-0 lg:h-[70vh]  w-[100%] h-[60vh] md:h-[60vh]"
+			class="fake-border2  border-[#f5f5f5]  backdrop-blur-xl lg:border-t-[20px] lg:border-x-[20px] md:border-t-[15px] md:border-x-[15px]  absolute top-0 max-h-[500px] lg:h-[70vh]  w-[100%] h-[60vh] md:h-[60vh]"
 		>
 			<div
 				class=" navfake mt-[60px] md:mt-[130px] lg:mt-[170px] mb-10 flex flex-col justify-center">
@@ -376,11 +409,13 @@
 						</ul>
 					</div>
 				</div>
-				
-				
+
+
 			</div>
-            <a class="m-10"><span class=" text-white"><a class="p-2 text-white font-regular tracking-widest">Home</a>-</span><span class=""><a class="p-2 text-white tracking-widest">Component</a></span></a>
-			<h1 class="2xs:ml-10 mt-5 text-6xl md:text-6xl lg:text-8xl font-bold text-white max-w-[1000px]">Component Heading</h1>
+
+            <a class="m-10"><span class=" text-white"><a href="/" class="p-2 text-white font-regular tracking-widest">Home</a>-</span><span class=""><a class="p-2 text-white tracking-widest">{name}</a></span></a>
+			<h1 class="2xs:ml-10 mt-5 text-6xl md:text-6xl lg:text-8xl font-bold text-white max-w-[1000px]">{heading}</h1>
+
             <a class="z-[-30] md:block hidden absolute scale-y-[-1] scale-x-[-1] left-[-5px] top-[-5px]">
                 <svg
 					xmlns="http://www.w3.org/2000/svg"
@@ -435,10 +470,8 @@
 			>
 		</div>
 
-		<div
-			class="relative z-[-50]  w-[100%] lg:h-[70vh] h-[60vh] md:h-[60vh] brightness-[.65]"
-			style="background-image: url(/herobg.png);" >
-			<!-- <div class="w-[100%]  h-[120vh]"></div> -->
+		<div class="relative z-[-50]  w-[100%] max-h-[500px] lg:h-[70vh] h-[60vh] md:h-[60vh] brightness-[.65]"
+			 style={`background-image: url(${bgImage});`} >
 		</div>
 	</div>
 </section>
