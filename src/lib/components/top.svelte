@@ -23,6 +23,7 @@
 				markers:true
 			},
 			duration: 0.3,
+			ease:"cric.out",
 			translateY: '0px'
 		});
 	})

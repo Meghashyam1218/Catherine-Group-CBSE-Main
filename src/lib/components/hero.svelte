@@ -12,6 +12,30 @@
 	onMount(()=>{
 		gsap.registerPlugin(ScrollTrigger);
 
+		const timeline = gsap.timeline({defaults:{duration:.6}})
+		timeline
+		.from('#heronav',{
+			duration:1,
+			opacity:0,
+			translateY:'-30px'
+		})
+		.from('.dive-text',{
+			// duration:1,
+			opacity:0,
+			translateY:'20px'
+		})
+		.from('.tagline',{
+			// duration:1,
+			opacity:0,
+			// scaleX:0,
+			translateY:'15px'
+		
+		})
+		.from('.heroimg',{
+			opacity:0,
+			translateY:'20px'
+		})
+
 		gsap.to('.fake-border', {
 			scrollTrigger: {
 				trigger: '.logo',
@@ -19,6 +43,7 @@
 				start: '30% top'
 				// markers:true
 			},
+			ease:"cric.out",
 			duration: 0.5,
 			border: 0
 		});
@@ -30,6 +55,7 @@
 				start: '30% top'
 				// markers:true
 			},
+			ease:"cric.out",
 			duration: 0.3,
 			translateY: '0px'
 		});
@@ -320,15 +346,15 @@
 		>
 			<div
 				class=" mt-[60px] md:mt-[130px] lg:mt-[170px] flex flex-col justify-center h-[80vh] md:h-[70vh]">
-				<div class="nav absolute top-[20px] w-[100%] px-5 grid items-center">
+				<div id="heronav" class="nav absolute top-[20px] w-[100%] px-5 grid items-center">
 					<div>
 						<button
 							aria-label="Open main menu "
 							tabindex="1"
 							aria-haspopup="true"
 							class="bg-[#fff] max-md:mx-auto button-menu py-[15px] px-[15px] md:px-[30px] button--white header__menu-btn-open transition-all duration-500 ease-linear "
-							on:click={navToggle}
-						>
+							on:click={navToggle}>
+						
 							<span class="button__icon-menu">
 								<svg
 									class="mr-0 lg:mr-[20px] fill-[#0c1637]"
@@ -362,7 +388,7 @@
 									href="/resources"
 									aria-label="Educational Resources"
 									tabindex="1"
-									class="link menu-list after:h-[1px] font-medium text-sm xl:text-base text-[#fff]"
+									class=" text-sm xl:text-base text-[#fff] link font-medium menu-list menu-list2 after:h-[1px] "
 									><span>Mandatory Disclosure</span></a
 								>
 							</li>
@@ -406,11 +432,11 @@
 					class="dive-text text-5xl mt-5 2xs:text-6xl z-0 md:text-8xl lg:text-9xl text-white text-center font-black">
 					DIVE INTO<br />LEARINING
 				</h1>
-				<h1 class="text-white text-sm md:text-2xl font-bold text-center tracking-widest">
+				<h1 class="tagline  text-white text-sm md:text-2xl font-bold text-center tracking-widest">
 					You are the light of the world
 				</h1>
 				<img
-					class="w-[80%] h-[500px] md:h-[80%] max-w-[1500px] object-cover mx-auto mt-6 rounded-[2.5rem]"
+					class="heroimg w-[80%] h-[500px] md:h-[80%] max-w-[1500px] object-cover mx-auto mt-6 rounded-[2.5rem]"
 					src="./herobg.png"/>
 			</div>
 			<a class="z-[-30] md:block hidden absolute scale-y-[-1] scale-x-[-1] left-[-5px] top-[-5px]">
