@@ -21,16 +21,16 @@
 	}
 </script>
 
-<section class="events bg-white rounded-[50px]">
+<section data-aos="fade-down" class="events my-20 bg-white rounded-[50px]">
 	<div
 		class="events-head  w-[90vw] mx-auto flex flex-col md:flex-row justify-between items-center p-4"
 	>
-		<h1
+		<h1 data-aos="fade-up" data-aos-anchor-placement="top-center" 
 			class="md:text-6xl text-3xl 2xs:text-4xl font-black md:basis-3/4 text-gray-800 md:m-4 md:ml-6"
 		>
 			Catherine Events
 		</h1>
-		<div class="flex md:basis-1/4 scale-[0.7] md:scale-[1] justify-end md:mr-20">
+		<div data-aos="fade-up" data-aos-anchor-placement="top-center"  class="flex md:basis-1/4 scale-[0.7] md:scale-[1] justify-end md:mr-20">
 			<div on:click={ScrollLeft} class="arrow-left cursor-pointer rotate-0 md:ml-6">
 				<svg
 					width="50pt"
@@ -85,9 +85,9 @@
 	</div>
 
 	<div
-		class="events-container md:px-4 py-4 pr-8 flex flex-nowrap overflow-x-auto bg-white h-[600px] "
+		class="events-container rounded-b-[2.5rem] md:px-4 py-4 pr-8 flex flex-nowrap overflow-x-auto bg-white h-[600px] "
 	>
-		<div class="card hidden md:block  w-[100px] p-2 relative mx-4 " id="none" />
+		<div class=" hidden md:block  w-[100px] p-2 relative mx-4 " id="none" />
 		{#each $Events as event, i}
 			<div class="card  w-[350px] p-2 relative mx-4 " id={`card-${i}`}>
 				<div class="cards-grad absolute z-0">

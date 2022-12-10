@@ -67,10 +67,10 @@
 		class="highlights md:scale-[0.75] lg:scale-[1] lg:gap-2 gap-8 md:flex-row md:flex w-[95vw] justify-evenly"
 	>
 		<div class="highlight w-[311px] mx-auto relative">
-			<div class="highlight-bg1">
+			<div class="highlight-bg1" data-aos="zoom-in" data-aos-anchor-placement="bottom-bottom" id="highlight-bg1">
 				<svg
-					class="mx-auto"
-					id="b04def02-ba54-4ac5-a00f-6895f4cb19fb"
+					class="mx-auto scale-0"
+					id="svg1"
 					data-name="Layer 1"
 					xmlns="http://www.w3.org/2000/svg"
 					xmlns:xlink="http://www.w3.org/1999/xlink"
@@ -95,6 +95,7 @@
 							}
 						</style>
 						<radialGradient
+							
 							id="add77119-e861-4ef0-87bc-5a45a27fa18e"
 							cx="-813.69"
 							cy="682.8"
@@ -138,7 +139,7 @@
 				>
 			</div>
 
-			<div class="content-h absolute top-[33%] left-[15%] ">
+			<div id="high1" data-aos="fade-up" class="content-h absolute cursor-pointer highs top-[33%] left-[15%] ">
 				<span class="text-5xl font-bold">Educators</span>
 				<button class="arrow-h"
 					><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 25" role="img"
@@ -151,11 +152,11 @@
 				>
 			</div>
 		</div>
-		<div class="highlight w-[311px] mx-auto relative">
-			<div class=" highlight-bg2">
+		<div  class="highlight w-[311px] mx-auto relative">
+			<div class=" highlight-bg2"  data-aos="zoom-in" data-aos-anchor-placement="bottom-bottom" id="highlight-bg2">
 				<svg
-					class="mx-auto"
-					id="f9716a2a-57aa-406d-b398-b9f1288e2f67"
+					class="mx-auto scale-0"
+					id="svg2"
 					data-name="Layer 1"
 					xmlns="http://www.w3.org/2000/svg"
 					xmlns:xlink="http://www.w3.org/1999/xlink"
@@ -203,7 +204,7 @@
 					/></svg
 				>
 			</div>
-			<div class="content-h absolute top-[33%] left-[0%] ">
+			<div data-aos="fade-up" data-aos-delay="200" id="high2" class="content-h absolute top-[33%] cursor-pointer highs left-[0%] ">
 				<span class="text-5xl font-bold">Infrastructure</span>
 				<button class="arrow-h"
 					><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 25" role="img"
@@ -217,10 +218,10 @@
 			</div>
 		</div>
 		<div class="highlight w-[311px] mx-auto relative">
-			<div class="highlight-bg3">
+			<div class="highlight-bg3"  data-aos="zoom-in" data-aos-anchor-placement="bottom-bottom" id="highlight-bg3">
 				<svg
-					class="mx-auto"
-					id="b055d3c0-9e4d-4559-957e-8bb1de712b90"
+					class="mx-auto scale-0"
+					id="svg3"
 					data-name="Layer 1"
 					xmlns="http://www.w3.org/2000/svg"
 					xmlns:xlink="http://www.w3.org/1999/xlink"
@@ -297,7 +298,7 @@
 					/></svg
 				>
 			</div>
-			<div class="content-h absolute top-[33%] left-[15%] ">
+			<div data-aos="fade-up" data-aos-delay="400" id="high3" class="content-h absolute top-[33%] cursor-pointer highs left-[15%] ">
 				<span class="text-5xl font-bold">Curriculum</span>
 				<button class="arrow-h"
 					><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 25" role="img"
@@ -349,10 +350,10 @@
 		justify-content: center;
 	}
 
-	.highlight:hover .arrow-h {
+	.highs:hover .arrow-h {
 		background: black;
 	}
-	.highlight:hover svg {
+	.highs:hover svg {
 		fill: white;
 	}
 </style>
