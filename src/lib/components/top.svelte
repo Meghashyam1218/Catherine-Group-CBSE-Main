@@ -214,11 +214,11 @@
 						</li>
 						<li class=" inline-block ml-[24px]">
 							<a
-								href="/community"
+								href="/"
 								aria-label="Community"
 								tabindex="1"
 								class="link flex flex-roww text-[#0c1637]"
-								><span class="inline mr-2"
+								><span class="inline hidden mr-2"
 									><svg
 										xmlns="http://www.w3.org/2000/svg"
 										fill="none"
@@ -233,7 +233,7 @@
 											d="M20.25 8.511c.884.284 1.5 1.128 1.5 2.097v4.286c0 1.136-.847 2.1-1.98 2.193-.34.027-.68.052-1.02.072v3.091l-3-3c-1.354 0-2.694-.055-4.02-.163a2.115 2.115 0 01-.825-.242m9.345-8.334a2.126 2.126 0 00-.476-.095 48.64 48.64 0 00-8.048 0c-1.131.094-1.976 1.057-1.976 2.192v4.286c0 .837.46 1.58 1.155 1.951m9.345-8.334V6.637c0-1.621-1.152-3.026-2.76-3.235A48.455 48.455 0 0011.25 3c-2.115 0-4.198.137-6.24.402-1.608.209-2.76 1.614-2.76 3.235v6.226c0 1.621 1.152 3.026 2.76 3.235.577.075 1.157.14 1.74.194V21l4.155-4.155"
 										/>
 									</svg>
-								</span><a class="inline menu-list after:h-[1px]">Live Chat</a></a
+								</span><a class="inline menu-list after:h-[1px]">Home</a></a
 							>
 						</li>
 					</ul>
@@ -257,33 +257,33 @@
 							>
 						</li>
 						<li class=" p-2 md:p-4">
-							<a
+							<a href="/infra"
 								class=" menu-list text-xl md:text-2xl after:h-[3px] cursor-pointer font-semibold text-[#0c1637]"
 								>Infrastructure</a
 							>
 						</li>
 						<li class=" p-2 md:p-4">
-							<a
+							<a href="/admissions"
 								class=" menu-list text-xl md:text-2xl after:h-[3px] cursor-pointer font-semibold text-[#0c1637]"
 								>Admissions</a
 							>
 						</li>
 						<li class=" p-2 md:p-4">
-							<a
+							<a href="/educators"
 								class=" menu-list text-xl md:text-2xl after:h-[3px] cursor-pointer font-semibold text-[#0c1637]"
 								>Educators</a
 							>
 						</li>
 						<li class=" p-2 md:p-4">
-							<a
+							<a href="/curriculum"
 								class=" menu-list text-xl md:text-2xl after:h-[3px] cursor-pointer font-semibold text-[#0c1637]"
 								>Curriculum</a
 							>
 						</li>
 						<li class=" p-2 md:p-4">
-							<a
+							<a href="/gallery"
 								class=" menu-list text-xl md:text-2xl after:h-[3px] cursor-pointer font-semibold text-[#0c1637]"
-								>Events</a
+								>Gallery</a
 							>
 						</li>
 					</uL>
@@ -292,12 +292,12 @@
 					<h1 class=" text-xl  md:text-2xl text-[#0c1637] font-medium">Quick Links</h1>
 					<ul class="md:py-4">
 						<li class="p-3">
-							<a class="menu-list cursor-pointer	text-base md:text-xl p-0 after:h-[1px] font-light"
+							<a href="/md" class="menu-list cursor-pointer	text-base md:text-xl p-0 after:h-[1px] font-light"
 								>Mandatory Disclosure</a
 							>
 						</li>
 						<li class="p-3">
-							<a class="menu-list cursor-pointer	text-base md:text-xl p-0 after:h-[1px] font-light"
+							<a href="/contactus" class="menu-list cursor-pointer	text-base md:text-xl p-0 after:h-[1px] font-light"
 								>Contact Us</a
 							>
 						</li>
@@ -312,7 +312,7 @@
 							>
 						</li>
 						<li class="p-3">
-							<a class="menu-list cursor-pointer	text-base md:text-xl p-0 after:h-[1px] font-light"
+							<a href="https://goo.gl/maps/ND5qTJnF7dGQ7HGL7" class="menu-list cursor-pointer	text-base md:text-xl p-0 after:h-[1px] font-light"
 								>Directions to Catherine</a
 							>
 						</li>
@@ -326,7 +326,7 @@
 <section class="">
 	<div class="hero-container relative overflow-hidden  ">
 		<div
-			class="fake-border2  border-[#f5f5f5]  backdrop-blur-xl lg:border-t-[20px] lg:border-x-[20px] md:border-t-[15px] md:border-x-[15px]  absolute top-0 max-h-[500px] lg:h-[70vh]  w-[100%] h-[60vh] md:h-[60vh]"
+			class="fake-border2  border-[#f5f5f5]  backdrop-blur-xl lg:border-t-[20px] lg:border-x-[20px] md:border-t-[15px] md:border-x-[15px]  absolute top-0 max-h-[500px] lg:h-[70vh]  w-[100%] h-[350px] md:h-[60vh]"
 		>
 			<div
 				class=" navfake mt-[60px] md:mt-[130px] lg:mt-[170px] mb-10 flex flex-col justify-center">
@@ -359,10 +359,10 @@
 						</button>
 					</div>
 
-					<div class="flex items-center justify-center pointer-events-none">
+					<a href="/" class="flex cursor-pointer items-center justify-center ">
 						<img src="./logo.png" class="h-[50px] mr-2" />
 						<span class="logo text-2xl text-white font-bold">Catherine CBSE</span>
-					</div>
+					</a>
 					<div
 						class="header__nav anim--fade--reverse anim--fade--reverse--in lg:flex justify-end items-center hidden"
 					>
@@ -372,7 +372,7 @@
 									href="/md"
 									aria-label="Educational Resources"
 									tabindex="1"
-									class="link menu-list after:h-[1px] font-medium text-sm xl:text-base text-[#fff]"
+									class=" text-sm xl:text-base text-[#fff] link font-medium menu-list menu-list2 after:h-[1px] "
 									><span>Mandatory Disclosure</span></a
 								>
 							</li>
@@ -381,7 +381,7 @@
 									href="/contactus"
 									aria-label="Community"
 									tabindex="1"
-									class="link font-medium menu-list after:h-[1px] text-[#fff]"
+									class="link font-medium menu-list menu-list2 after:h-[1px] text-[#fff]"
 									><span>Contact Us</span></a
 								>
 							</li>
@@ -406,8 +406,7 @@
 												d="M20.25 8.511c.884.284 1.5 1.128 1.5 2.097v4.286c0 1.136-.847 2.1-1.98 2.193-.34.027-.68.052-1.02.072v3.091l-3-3c-1.354 0-2.694-.055-4.02-.163a2.115 2.115 0 01-.825-.242m9.345-8.334a2.126 2.126 0 00-.476-.095 48.64 48.64 0 00-8.048 0c-1.131.094-1.976 1.057-1.976 2.192v4.286c0 .837.46 1.58 1.155 1.951m9.345-8.334V6.637c0-1.621-1.152-3.026-2.76-3.235A48.455 48.455 0 0011.25 3c-2.115 0-4.198.137-6.24.402-1.608.209-2.76 1.614-2.76 3.235v6.226c0 1.621 1.152 3.026 2.76 3.235.577.075 1.157.14 1.74.194V21l4.155-4.155"
 											/>
 										</svg>
-									</span><a class=" hidden lg:menu-list after:h-[1px]">Live Chat</a></a
-								>
+									</span><a class=" hidden lg:menu-list after:h-[1px]">Live Chat</a></a>
 							</li>
 						</ul>
 					</div>
@@ -473,7 +472,7 @@
 			>
 		</div>
 
-		<div class="relative z-[-50]  w-[100%] max-h-[500px] lg:h-[70vh] h-[60vh] md:h-[60vh] brightness-[.65]"
+		<div class="relative z-[-50] bg-cover w-[100%] max-h-[500px] lg:h-[70vh] h-[350px] md:h-[60vh] brightness-[.65]"
 			 style={`background-image: url(${bgImage});`} >
 		</div>
 	</div>
@@ -534,7 +533,11 @@
 		transform-origin: bottom right;
 		transition: transform 0.25s ease-out;
 	}
-
+	.menu-list2::after {
+		
+		background-color: #fff;
+		
+	}
 	.menu-list:hover::after {
 		transform: scaleX(1);
 		transform-origin: bottom left;

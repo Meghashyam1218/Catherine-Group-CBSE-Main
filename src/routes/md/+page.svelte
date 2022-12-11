@@ -4,6 +4,6 @@
     import Footer from "$lib/components/footer.svelte"
 </script>
 
-<Top name="Mandatory Disclosure" heading="Mandatory Disclosure"/>
+<Top name="Mandatory Disclosure" heading="Mandatory Disclosure" bgImage="./top-1.jpg"/>
 <ListOfItems/>
 <Footer/>

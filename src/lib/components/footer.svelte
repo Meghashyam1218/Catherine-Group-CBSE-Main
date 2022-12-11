@@ -36,13 +36,13 @@
 	});
 </script>
 
-<section class="h-[125h]" data-aos="fade-up" data-aos-anchor-placement="top-center">
+<section class="" data-aos="fade-up" data-aos-anchor-placement="top-center">
 	<div>
-		<div class="bg-[#0c1637] h-[125vh] rounded-t-[40px]">
+		<div class="bg-[#0c1637]  rounded-t-[40px]">
 			<div
                 
 				id="joinnowf"
-				class=" bg-cover h-[75vh] rounded-[40px]"
+				class=" bg-cover h-[500px] md:h-[75vh] rounded-[40px]"
 				style="background-image: url(./bgfooter.webp);"
 			>
 				<div
@@ -68,33 +68,32 @@
 					</div>
 				</div>
 			</div>
-			<div class="h-[50vh] flex 3xs:flex-col md:flex-row p-6">
-				<div class=" md:w-[60%] flex flex-col justify-between md:py-8">
+			<div class="md:h-[350px] flex 3xs:flex-col md:flex-row p-6">
+				<div class=" md:w-[50%] flex flex-col justify-between md:py-8">
 					<div>
-						<p class="text-start text-white font-semibold 3xs:text-xl md:text-3xl mr-[5%]">
-							Ocean School is built by an interdisciplinary team working at the intersection of
-							science, education and storytelling.
+						<p class="text-center md:text-start text-white font-semibold 3xs:text-xl md:text-2xl md:mr-[5%]">
+							"The future belongs to those who believe in the beauty of their dreams." 
 						</p>
 					</div>
-					<div class="flex 3xs:flex-col md:flex-row">
-						<button
-							class="flex flex-row group justify-between items-center 3xs:px-2 2md:px-8 duration-700 bg-gradient-to-r hover:bg-gradient-to-t from-[#6edad8] via-[#64d9d6] to-[#1aa9e8] 3xs:w-[100%] md:w-[55%] 2md:w-[45%] 3xs:my-4 sm:my-0 h-[10vh] rounded-3xl"
+					<div class="flex 3xs:flex-col my-5 md:my-0 lg:flex-row items-center   ">
+						<a href="/contactus"
+							class="flex flex-row group text-center justify-evenly items-center 3xs:px-2 md:px-8 duration-700 bg-gradient-to-r hover:bg-gradient-to-t from-[#6edad8] via-[#64d9d6] to-[#1aa9e8] 3xs:w-[100%] 2xs:w-[300px] lg:w-[55%] md:w-[90%] 3xs:my-4 sm:my-0 h-[10vh] rounded-3xl"
 						>
-							<a href="#"
-								><p class="font-semibold text-xl group-hover:text-2xl duration-300">
-									Our Newspaper
+							<a href="/contactus"
+								><p class="font-semibold text-xl group-hover:scale-[1.2] duration-300">
+									Contact US
 								</p></a
 							>
-							<a href="#">
+							<a href="/contactus">
 								<div
 									class="bg-white h-[50px] group-hover:h-[55px] w-[50px] group-hover:w-[55px] duration-300 rounded-full grid place-items-center"
 								>
 									<img class="" src="./arrow.svg" />
 								</div>
 							</a>
-						</button>
+						</a>
 						<div
-							class="grid grid-cols-5 items-center px-8 3xs:my-4 md:my-0 justify-items-center 3xs:w-[100%] md:w-[50%]"
+							class="grid grid-cols-5 items-center lg:px-4 3xs:my-4 md:my-0 justify-items-center 3xs:w-[100%] md:mt-5 lg:mt-0 md:w-[90%] lg:w-[50%]"
 						>
 							<div><a href=""><img src="./facebook.svg" alt="#" /></a></div>
 							<div><a href=""><img src="./instagram.svg" alt="#" /></a></div>
@@ -104,28 +103,31 @@
 						</div>
 					</div>
 				</div>
-				<div
-					class="flex 3xs:flex-col 2xs:flex-row justify-between text-white 3xs:w-[100%] md:w-[50%] pt-6"
-				>
-					<div class="w-[60%] xl:w-[50%]">
-						<div class="pb-2 w-max">
-							<p class="sm:hover:text-xl duration-300">Accessibility on Ocean School</p>
+				<div class="flex 2xs:flex-row md:w-[50%] justify-evenly">
+					<div class="flex 3xs:flex-col   text-white pr-6  pt-6">
+						<div class="w-[60%] xl:w-[50%]">
+							<div class="pb-2 w-max">
+								<p class="sm:hover:scale-[1.1] cursor-pointer  text-xl duration-300">Home</p>						</div>
+							<div class="pb-2 w-max">
+								<p class="sm:hover:scale-[1.1] cursor-pointer  text-xl duration-300">About Us</p>
+							</div>
+							<div class="pb-2 w-max">
+								<p class="sm:hover:scale-[1.1] cursor-pointer  text-xl duration-300">Admissions</p>
+							</div>
+							<!-- <div class="pb-2 w-max"><p class="sm:hover:scale-[1.1] cursor-pointer  duration-300">Credits</p></div> -->
 						</div>
-						<div class="pb-2 w-max">
-							<p class="sm:hover:text-xl duration-300">Privacy policy</p>
+						<div class="w-[30%] xl:w-[50%] mt-10">
+							<div class="pb-2 w-max"><p class="sm:hover:scale-[1.1] cursor-pointer text-xl  duration-300">Catherine SSC</p></div>
+							<div class="pb-2 w-max"><p class="sm:hover:scale-[1.1] cursor-pointer text-xl duration-300">Catherine College</p></div>
+							<!-- <div class="pb-2 w-max"><p class="sm:hover:scale-[1.1] cursor-pointer  duration-300">NFB Education</p></div> -->
 						</div>
-						<div class="pb-2 w-max">
-							<p class="sm:hover:text-xl duration-300">Terms and conditions</p>
-						</div>
-						<div class="pb-2 w-max"><p class="sm:hover:text-xl duration-300">Credits</p></div>
 					</div>
-					<div class="w-[30%] xl:w-[50%]">
-						<div class="pb-2 w-max"><p class="sm:hover:text-xl duration-300">Help Centre</p></div>
-						<div class="pb-2 w-max"><p class="sm:hover:text-xl duration-300">Partners</p></div>
-						<div class="pb-2 w-max"><p class="sm:hover:text-xl duration-300">NFB Education</p></div>
+					<div class="">
+						<iframe class="rounded-2xl w-[100%] xl:w-auto " src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d30370.422998992177!2d83.442015!3d17.918022!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xe07cd35012554b65!2sCatherine%20Group%20of%20Institutions!5e0!3m2!1sen!2sin!4v1670737083834!5m2!1sen!2sin" width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
 					</div>
 				</div>
 			</div>
 		</div>
 	</div>
+	<div class="text-center bg-[#0c1637] my-[-2px] text-white py-2">Made with ❤️ by <span class="text-orange-300"><a href="https://www.konkorde.org">KONKORDE</a></span></div>
 </section>

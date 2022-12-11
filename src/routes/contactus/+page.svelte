@@ -4,6 +4,6 @@
     import Footer from "$lib/components/footer.svelte";
 </script>
 
-<Top name="Contact Us" heading="Contact us"/>
+<Top name="Contact Us" heading="Contact us" bgImage="./top-2.jpg"/>
 <Form/>
 <Footer/>
