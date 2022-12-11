@@ -6,6 +6,7 @@
 	import { onMount } from 'svelte';
 	// ..
 	import '../app.css';
+	console.log("layout")
 	onMount(() => {
 		gsap.registerPlugin(ScrollTrigger);
 		

@@ -85,7 +85,7 @@
 	</div>
 
 	<div
-		class="events-container rounded-b-[2.5rem] md:px-4 py-4 pr-8 flex flex-nowrap overflow-x-auto bg-white h-[600px] "
+		class="events-container rounded-b-[2.5rem] shadow-lg md:px-4 py-4 pr-8 flex flex-nowrap overflow-x-auto bg-white h-[600px] "
 	>
 		<div class=" hidden md:block  w-[100px] p-2 relative mx-4 " id="none" />
 		{#each $Events as event, i}

@@ -8,6 +8,8 @@ import Highlights from "$lib/components/highlights.svelte";
 import Top from "$lib/components/top.svelte";
 import Footer from "$lib/components/footer.svelte";
 	import Joinus from "$lib/components/joinus.svelte";
+
+    console.log("rendered")
 </script>
 
 
