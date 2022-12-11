@@ -12,7 +12,7 @@
         </p>
     </div>
     <div data-aos="zoom-in" data-aos-once="true" class="basis-1/2 p-4 m-4 md:max-w-[600px] ">
-        <img src="/aboutus.webp" alt="" class="rounded-[25%] sticky ">
+        <img src="/aboutus.png" alt="" class="rounded-[25%] sticky ">
     </div>
  </div>
 </section>

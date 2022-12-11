@@ -1,7 +1,7 @@
 <section class="h-full ">
     <div class="lg:max-w-[1100px] xl:max-w-[80vw] flex ml-auto mr-auto  flex-col  lg:flex-row text-justify  items-center justify-center">
         <div data-aos="zoom-in" data-aos-once="true" class="basis-1/2 p-4 m-4 md:max-w-[600px] ">
-            <img src="/aboutus.webp" alt="" class="rounded-[25%] sticky ">
+            <img src="/management.jpg" alt="" class="rounded-[25%] sticky ">
         </div>
         <div data-aos="fade-up" data-aos-once="true" class="basis-1/2 text-neutral-800 flex flex-col  justify-center p-4 m-4">
            <h1 class="text-3xl font-semibold text-center md:text-start "> Managamenet</h1>

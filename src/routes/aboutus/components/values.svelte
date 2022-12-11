@@ -7,9 +7,21 @@
            <br>
            <p class="md:text-xl text-base">
             The school has four unique core values that were chosen with a concern for the overall development of each child and for the benefit of the society at large</p>
-       </div>
+        <br>
+            <p class="md:text-xl text-base">
+            THE FOUR CORE VALUES OF CATHERINE ARE
+
+            1) ACADEMIC EXCELLENCE
+
+            2) DISCIPLINE
+
+            3) VALUE EDUCATION
+
+            4) ACCOUNTABILITY
+        </p>
+        </div>
        <div data-aos="zoom-in" data-aos-once="true" class="basis-1/2 p-4 m-4 md:max-w-[600px] ">
-        <img src="/aboutus.webp" alt="" class="rounded-[25%] sticky ">
+        <img src="/values.png" alt="" class="rounded-[25%] sticky ">
     </div>
     </div>
    </section>
