@@ -472,7 +472,7 @@
 			>
 		</div>
 
-		<div class="relative z-[-50] bg-cover w-[100%] max-h-[500px] lg:h-[70vh] h-[350px] md:h-[60vh] brightness-[.65]"
+		<div class="relative z-[-50] bg-cover bg-right-bottom w-[100%] max-h-[500px] lg:h-[70vh] h-[350px] md:h-[60vh] brightness-[.65]"
 			 style={`background-image: url(${bgImage});`} >
 		</div>
 	</div>

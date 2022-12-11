@@ -7,7 +7,7 @@
     import Managments from "./components/managments.svelte";
 </script>
 
-<Top/>
+<Top name="About us" heading="About Us" bgImage="./top-2.jpg"/>
 
 <Aboutus/>
 <Vision/>
