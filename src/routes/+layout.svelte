@@ -15,17 +15,7 @@
 			// anchorPlacement: 'top-center',
 		});
 
-		gsap.from('.card', {
-			scrollTrigger: {
-				trigger: '.events-container',
-				toggleActions: 'restart none none reverse',
-				start: '30% center'
-				// markers:true
-			},
-			opacity: 0,
-			ease:"cric.out",
-			stagger: 0.3
-		});
+		
 	});
 </script>
 

@@ -65,7 +65,7 @@
 
 <section class="z-[999] h-[0px]  fixed top-0">
 	<div
-		in:fade
+		in:fade|local
 		class="w-[100vw] navmain translate-y-[-85px]  transition-all duration-500 ease-linear  bg-white h-[70px] md:h-[85px]  pt-[5px] md:pt-[10px] px-[25px] md:px-[24px] xl:px-[42px] {nav ===
 		false
 			? ' rounded-b-none '
@@ -177,7 +177,7 @@
 	</div>
 	{#if !nav}
 		<div
-			out:fade
+			out:fade|local
 			class="w-[100vw] fixed top-0 transition-all duration-500 ease-linear  bg-white h-[70px] md:h-[85px]  pt-[5px] md:pt-[10px] px-[25px] md:px-[24px] xl:px-[42px] "
 		>
 			<div class="nav grid">
@@ -258,7 +258,7 @@
 		</div>
 	{/if}
 	{#if !nav}
-		<div transition:slide class="absolute z-[999] top-[70px] md:top-[85px] w-[100%] ">
+		<div transition:slide|local class="absolute z-[999] top-[70px] md:top-[85px] w-[100%] ">
 			<div
 				class="flex md:flex-row flex-col border-b-[1px] rounded-b-[2.5rem] bg-white md:px-[20vw] border-t-[1px] "
 			>

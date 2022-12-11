@@ -10,14 +10,14 @@
 			scrollTrigger: {
 				trigger: '#joinnowf',
 				toggleActions: 'restart none none reset',
-				start: '0% center',
+				start: '0% 80%',
 				// markers: true
 			}
 		});
 
 		timeline_footer
 			.from('#joinnow', {
-              
+				delay:1,
 				// duration:1,
 				opacity: 0,
 				translateY: '-20px'
