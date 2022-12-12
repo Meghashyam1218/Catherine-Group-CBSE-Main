@@ -1,7 +1,25 @@
 <script>
 	import { Events } from '$lib/stores/events.js';
+	import { ScrollTrigger } from 'gsap/dist/ScrollTrigger';
+	import gsap from 'gsap/dist/gsap';
 	import { onMount } from 'svelte';
 	onMount(() => {
+
+		gsap.registerPlugin(ScrollTrigger);
+		
+
+		gsap.from('.card', {
+			scrollTrigger: {
+				trigger: '.events-container',
+				toggleActions: 'restart none none reverse',
+				start: '30% center'
+				// markers:true
+			},
+			opacity: 0,
+			ease:"cric.out",
+			stagger: 0.3
+		});
+
 		const mediaQuery = window.matchMedia('(min-width: 768px)');
 
 		if (mediaQuery.matches) {

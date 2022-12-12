@@ -49,7 +49,7 @@
 
 <section class="z-[999] h-[0px]  fixed top-0">
 	<div
-		in:fade
+		in:fade|local
 		class="w-[100vw] navmain translate-y-[-85px]  transition-all duration-500 ease-linear  bg-white h-[70px] md:h-[85px]  pt-[5px] md:pt-[10px] px-[25px] md:px-[24px] xl:px-[42px] {nav ===
 		false
 			? ' rounded-b-none '
@@ -106,10 +106,10 @@
 					</button>
 				{/if}
 			</div>
-			<div class="flex items-center justify-center pointer-events-none">
+			<a href="/" class="flex items-center justify-center cursor-pointer">
 				<img src="./logo.png" class="h-[40px] mr-2" />
 				<span class="text-2xl font-bold">Catherine CBSE</span>
-			</div>
+			</a>
 			<div
 				class="header__nav anim--fade--reverse anim--fade--reverse--in lg:flex justify-end items-center hidden"
 			>
@@ -161,7 +161,7 @@
 	</div>
 	{#if !nav}
 		<div
-			out:fade
+			out:fade|local
 			class="w-[100vw] fixed top-0 transition-all duration-500 ease-linear  bg-white h-[70px] md:h-[85px]  pt-[5px] md:pt-[10px] px-[25px] md:px-[24px] xl:px-[42px] "
 		>
 			<div class="nav grid">
@@ -187,10 +187,10 @@
 						<span class="hidden ml-2 lg:inline">Close</span>
 					</button>
 				</div>
-				<div class="flex items-center justify-center pointer-events-none">
+				<a href="/#" class="flex items-center justify-center cursor-pointer">
 					<img src="./logo.png" class="h-[40px] mr-2" />
 					<span class="text-2xl font-bold">Catherine CBSE</span>
-				</div>
+				</a>
 				<div
 					class="header__nav anim--fade--reverse anim--fade--reverse--in lg:flex justify-end items-center hidden"
 				>
@@ -214,7 +214,7 @@
 						</li>
 						<li class=" inline-block ml-[24px]">
 							<a
-								href="/"
+								href="/#"
 								aria-label="Community"
 								tabindex="1"
 								class="link flex flex-roww text-[#0c1637]"
@@ -233,7 +233,7 @@
 											d="M20.25 8.511c.884.284 1.5 1.128 1.5 2.097v4.286c0 1.136-.847 2.1-1.98 2.193-.34.027-.68.052-1.02.072v3.091l-3-3c-1.354 0-2.694-.055-4.02-.163a2.115 2.115 0 01-.825-.242m9.345-8.334a2.126 2.126 0 00-.476-.095 48.64 48.64 0 00-8.048 0c-1.131.094-1.976 1.057-1.976 2.192v4.286c0 .837.46 1.58 1.155 1.951m9.345-8.334V6.637c0-1.621-1.152-3.026-2.76-3.235A48.455 48.455 0 0011.25 3c-2.115 0-4.198.137-6.24.402-1.608.209-2.76 1.614-2.76 3.235v6.226c0 1.621 1.152 3.026 2.76 3.235.577.075 1.157.14 1.74.194V21l4.155-4.155"
 										/>
 									</svg>
-								</span><a class="inline menu-list after:h-[1px]">Home</a></a
+								</span><a href="/" class="inline menu-list after:h-[1px]">Home</a></a
 							>
 						</li>
 					</ul>
@@ -242,7 +242,7 @@
 		</div>
 	{/if}
 	{#if !nav}
-		<div transition:slide class="absolute z-[999] top-[70px] md:top-[85px] w-[100%] ">
+		<div transition:slide|local class="absolute z-[999] top-[70px] md:top-[85px] w-[100%] ">
 			<div
 				class="flex md:flex-row flex-col border-b-[1px] rounded-b-[2.5rem] bg-white md:px-[20vw] border-t-[1px] "
 			>
@@ -359,7 +359,7 @@
 						</button>
 					</div>
 
-					<a href="/" class="flex cursor-pointer items-center justify-center ">
+					<a href="/#" class="flex cursor-pointer items-center justify-center ">
 						<img src="./logo.png" class="h-[50px] mr-2" />
 						<span class="logo text-2xl text-white font-bold">Catherine CBSE</span>
 					</a>
