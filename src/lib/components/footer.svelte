@@ -59,13 +59,13 @@
 							>You are the light of the world</span
 						>
 					</div>
-					<div id="joinnowbtn" class="flex justify-center mt-4">
+					<a href="/admissions" id="joinnowbtn" class="flex justify-center mt-4">
 						<button
 							class=" group flex flex-row bg-white shadow-2xl shadow-gray-600 text-[#0c1637] xl:text-xl text-base font-medium p-2 xl:p-4 rounded-full duration-700 hover:bg-[#0c1637] hover:text-white"
 						>
 						<div class="px-3"><svg  class="rotate-[315deg] duration-700 group-hover:fill-white" viewBox="0 0 24 25" role="img" data-v-ab5c9590="" width="24"  height="25" ><path fill-rule="evenodd" clip-rule="evenodd" d="M16.961 18.085a.459.459 0 0 0 .023.68.545.545 0 0 0 .732-.02l5.648-5.592.333-.33-.333-.33-5.572-5.516a.545.545 0 0 0-.732-.02.459.459 0 0 0-.023.68l4.76 4.712H.713c-.276 0-.5.224-.498.5 0 .276.226.5.502.5h21.028l-4.784 4.736Z"></path></svg></div> Admissions Enquiry
 						</button>
-					</div>
+					</a>
 				</div>
 			</div>
 			<div class="md:h-[350px] flex 3xs:flex-col md:flex-row p-6">
@@ -95,7 +95,7 @@
 						<div
 							class="grid grid-cols-5 items-center lg:px-4 3xs:my-4 md:my-0 justify-items-center 3xs:w-[100%] md:mt-5 lg:mt-0 md:w-[90%] lg:w-[50%]"
 						>
-							<div><a href="hhtps://www.facebook.com/catherinebheemili"><img src="./facebook.svg" alt="#" /></a></div>
+							<div><a href=""><img src="./facebook.svg" alt="#" /></a></div>
 							<div><a href=""><img src="./instagram.svg" alt="#" /></a></div>
 							<div><a href=""><img src="./youtube.svg" alt="#" /></a></div>
 							<div><a href=""><img src="./twitter.svg" alt="#" /></a></div>
@@ -106,19 +106,19 @@
 				<div class="flex 2xs:flex-row md:w-[50%] justify-evenly">
 					<div class="flex 3xs:flex-col   text-white pr-6  pt-6">
 						<div class="w-[60%] xl:w-[50%]">
-							<a href="/" class="pb-2 w-max">
-								<p class="sm:hover:scale-[1.1] cursor-pointer  text-xl duration-300">Home</p>						</a>
-							<a href="/aboutus" class="pb-2 w-max">
-								<p class="sm:hover:scale-[1.1] cursor-pointer  text-xl duration-300">About Us</p>
-							</a>
-							<a href="/admissions" class="pb-2 w-max">
-								<p class="sm:hover:scale-[1.1] cursor-pointer  text-xl duration-300">Admissions</p>
-							</a>
+							<div class="pb-2 w-max">
+								<a href="/" class="sm:hover:scale-[1.1] cursor-pointer  text-xl duration-300">Home</a>						</div>
+							<div class="pb-2 w-max">
+								<a href="/aboutus" class="sm:hover:scale-[1.1] cursor-pointer  text-xl duration-300">About Us</a>
+							</div>
+							<div class="pb-2 w-max">
+								<a href="/admissions" class="sm:hover:scale-[1.1] cursor-pointer  text-xl duration-300">Admissions</a>
+							</div>
 							<!-- <div class="pb-2 w-max"><p class="sm:hover:scale-[1.1] cursor-pointer  duration-300">Credits</p></div> -->
 						</div>
 						<div class="w-[30%] xl:w-[50%] mt-10">
-							<a href="#/" class="pb-2 w-max"><p class="sm:hover:scale-[1.1] cursor-pointer text-xl  duration-300">Catherine SSC</p></a>
-							<a href="#/" class="pb-2 w-max"><p class="sm:hover:scale-[1.1] cursor-pointer text-xl duration-300">Catherine College</p></a>
+							<div class="pb-2 w-max"><a href="#/" class="sm:hover:scale-[1.1] cursor-pointer text-xl  duration-300">Catherine SSC</a></div>
+							<div class="pb-2 w-max"><a href="#/" class="sm:hover:scale-[1.1] cursor-pointer text-xl duration-300">Catherine College</a></div>
 							<!-- <div class="pb-2 w-max"><p class="sm:hover:scale-[1.1] cursor-pointer  duration-300">NFB Education</p></div> -->
 						</div>
 					</div>
