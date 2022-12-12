@@ -7,7 +7,7 @@
         </div>
         <div class="flex flex-col xl:w-[40vw] pt-[5%] xl:pl-[5%] space-y-6">
             <div><p class="xl:text-xl text-base text-justify leading-8">The founders both being retired professors have been serving the cause of education for more than 45 years. they dram from the rich exposure to education system in Europe, America and Asia and the amazing story of Catherine School, which has already established a legacy of academic excellence, is a story that continues unfold</p></div>
-            <div class="pt-[5%]"><img src="./cbse logo.jpg" class=""></div>
+            <div class="pt-[5%]"><img src="./cbse logo.webp" class=""></div>
         </div>
     </div>
 </section>
