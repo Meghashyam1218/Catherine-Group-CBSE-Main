@@ -8,7 +8,7 @@ import Highlights from "$lib/components/highlights.svelte";
 import Top from "$lib/components/top.svelte";
 import Footer from "$lib/components/footer.svelte";
 	import Joinus from "$lib/components/joinus.svelte";
-
+import Gallery from "$lib/components/gallery.svelte";
     console.log("rendered")
 </script>
 
@@ -19,6 +19,7 @@ import Footer from "$lib/components/footer.svelte";
     <Hero/>
     <Why/>
     <Highlights/>
+    <Gallery/>
     <Cards/>
     
     <Footer/>

@@ -54,7 +54,7 @@
 		class="events-head  w-[90vw] mx-auto flex flex-col md:flex-row justify-between items-center p-4"
 	>
 		<h1
-			class="md:text-6xl text-3xl 2xs:text-4xl font-black lg::basis-3/4 text-gray-800 md:m-4 md:ml-6"
+			class="md:text-6xl text-4xl 2xs:text-4xl font-black lg::basis-3/4 text-gray-800 md:m-4 md:ml-6"
 		>
 			Our Highlights
 		</h1>
@@ -112,9 +112,9 @@
 		</div>
 	</div>
 	<div
-		class="highlights md:scale-[0.75] lg:scale-[1] lg:gap-2 gap-8 md:flex-row md:flex w-[95vw] justify-evenly"
+		class="highlights  md:scale-[0.75] lg:scale-[1] lg:gap-2 gap-8 md:flex-row md:flex md:w-[100vw] w-[95vw] lg:w-[95vw] justify-evenly"
 	>
-		<div class="highlight w-[311px] mx-auto relative">
+		<div class="highlight scale-[.8] md:scale-[1] w-[311px] mx-auto relative">
 			<div class="highlight-bg1" data-aos="zoom-in" data-aos-anchor-placement="bottom-bottom" id="highlight-bg1">
 				<svg
 					class="mx-auto scale-0"
@@ -187,7 +187,7 @@
 				>
 			</div>
 
-			<div id="high1" data-aos="fade-up" class="content-h absolute cursor-pointer highs top-[33%] left-[15%] ">
+			<a href="/educators" id="high1" data-aos="fade-up" class="content-h absolute cursor-pointer highs top-[33%] left-[15%] ">
 				<span class="text-5xl font-bold">Educators</span>
 				<button class="arrow-h"
 					><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 25" role="img"
@@ -198,9 +198,9 @@
 						/></svg
 					></button
 				>
-			</div>
+			</a>
 		</div>
-		<div  class="highlight w-[311px] mx-auto relative">
+		<div  class="highlight scale-[.8] md:scale-[1] w-[311px] mx-auto relative">
 			<div class=" highlight-bg2"  data-aos="zoom-in" data-aos-anchor-placement="bottom-bottom" id="highlight-bg2">
 				<svg
 					class="mx-auto scale-0"
@@ -252,7 +252,7 @@
 					/></svg
 				>
 			</div>
-			<div data-aos="fade-up" data-aos-delay="200" id="high2" class="content-h absolute top-[33%] cursor-pointer highs left-[0%] ">
+			<a href="/infra" data-aos="fade-up" data-aos-delay="200" id="high2" class="content-h absolute top-[33%] cursor-pointer highs left-[0%] ">
 				<span class="text-5xl font-bold">Infrastructure</span>
 				<button class="arrow-h"
 					><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 25" role="img"
@@ -263,9 +263,9 @@
 						/></svg
 					></button
 				>
-			</div>
+			</a>
 		</div>
-		<div class="highlight w-[311px] mx-auto relative">
+		<div class="highlight scale-[.8] md:scale-[1] w-[311px] mx-auto relative">
 			<div class="highlight-bg3"  data-aos="zoom-in" data-aos-anchor-placement="bottom-bottom" id="highlight-bg3">
 				<svg
 					class="mx-auto scale-0"
@@ -346,7 +346,7 @@
 					/></svg
 				>
 			</div>
-			<div data-aos="fade-up" data-aos-delay="400" id="high3" class="content-h absolute top-[33%] cursor-pointer highs left-[15%] ">
+			<a href="/curriculum" data-aos="fade-up" data-aos-delay="400" id="high3" class="content-h absolute top-[33%] cursor-pointer highs left-[15%] ">
 				<span class="text-5xl font-bold">Curriculum</span>
 				<button class="arrow-h"
 					><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 25" role="img"
@@ -357,7 +357,7 @@
 						/></svg
 					></button
 				>
-			</div>
+			</a>
 		</div>
 	</div>
 </section>
