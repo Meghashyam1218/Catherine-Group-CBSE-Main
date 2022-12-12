@@ -95,7 +95,7 @@
 						<div
 							class="grid grid-cols-5 items-center lg:px-4 3xs:my-4 md:my-0 justify-items-center 3xs:w-[100%] md:mt-5 lg:mt-0 md:w-[90%] lg:w-[50%]"
 						>
-							<div><a href=""><img src="./facebook.svg" alt="#" /></a></div>
+							<div><a href="hhtps://www.facebook.com/catherinebheemili"><img src="./facebook.svg" alt="#" /></a></div>
 							<div><a href=""><img src="./instagram.svg" alt="#" /></a></div>
 							<div><a href=""><img src="./youtube.svg" alt="#" /></a></div>
 							<div><a href=""><img src="./twitter.svg" alt="#" /></a></div>
@@ -106,19 +106,19 @@
 				<div class="flex 2xs:flex-row md:w-[50%] justify-evenly">
 					<div class="flex 3xs:flex-col   text-white pr-6  pt-6">
 						<div class="w-[60%] xl:w-[50%]">
-							<div class="pb-2 w-max">
-								<p class="sm:hover:scale-[1.1] cursor-pointer  text-xl duration-300">Home</p>						</div>
-							<div class="pb-2 w-max">
+							<a href="/" class="pb-2 w-max">
+								<p class="sm:hover:scale-[1.1] cursor-pointer  text-xl duration-300">Home</p>						</a>
+							<a href="/aboutus" class="pb-2 w-max">
 								<p class="sm:hover:scale-[1.1] cursor-pointer  text-xl duration-300">About Us</p>
-							</div>
-							<div class="pb-2 w-max">
+							</a>
+							<a href="/admissions" class="pb-2 w-max">
 								<p class="sm:hover:scale-[1.1] cursor-pointer  text-xl duration-300">Admissions</p>
-							</div>
+							</a>
 							<!-- <div class="pb-2 w-max"><p class="sm:hover:scale-[1.1] cursor-pointer  duration-300">Credits</p></div> -->
 						</div>
 						<div class="w-[30%] xl:w-[50%] mt-10">
-							<div class="pb-2 w-max"><p class="sm:hover:scale-[1.1] cursor-pointer text-xl  duration-300">Catherine SSC</p></div>
-							<div class="pb-2 w-max"><p class="sm:hover:scale-[1.1] cursor-pointer text-xl duration-300">Catherine College</p></div>
+							<a href="#/" class="pb-2 w-max"><p class="sm:hover:scale-[1.1] cursor-pointer text-xl  duration-300">Catherine SSC</p></a>
+							<a href="#/" class="pb-2 w-max"><p class="sm:hover:scale-[1.1] cursor-pointer text-xl duration-300">Catherine College</p></a>
 							<!-- <div class="pb-2 w-max"><p class="sm:hover:scale-[1.1] cursor-pointer  duration-300">NFB Education</p></div> -->
 						</div>
 					</div>
