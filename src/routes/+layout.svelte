@@ -13,6 +13,7 @@
 		
 		AOS.init({
 			// anchorPlacement: 'top-center',
+			once:true
 		});
 
 		
