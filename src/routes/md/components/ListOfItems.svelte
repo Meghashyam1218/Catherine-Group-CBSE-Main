@@ -56,6 +56,10 @@
         {
             name: "Staff List",
             link: "/md/staff_list.pdf"
+        },
+        {
+            name: "Structural",
+            link: "/md/structural.pdf"
         }
     ]
 </script>
