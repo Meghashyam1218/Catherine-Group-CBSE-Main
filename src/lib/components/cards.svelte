@@ -11,7 +11,8 @@
 		gsap.from('.card', {
 			scrollTrigger: {
 				trigger: '.events-container',
-				toggleActions: 'restart none none reverse',
+				// toggleActions: 'restart none none reverse',
+				toggleActions: 'play none none none',
 				start: '30% center'
 				// markers:true
 			},
@@ -139,7 +140,7 @@
 					<p class="content-description font-medium text-justify  text-gray-600 ">
 						{event.description}
 					</p>
-					<div class="content-view text-right pr-2 font-semibold text-gray-400">More...</div>
+					<div class="content-view text-right pr-2 opacity-0 font-semibold text-gray-400">More...</div>
 				</div>
 			</div>
 		{/each}

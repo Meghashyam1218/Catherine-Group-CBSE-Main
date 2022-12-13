@@ -9,7 +9,7 @@
 		let timeline_footer = gsap.timeline({
 			scrollTrigger: {
 				trigger: '#joinnowf',
-				toggleActions: 'restart none none reset',
+				toggleActions: 'play none none none',
 				start: '0% 80%',
 				// markers: true
 			}
