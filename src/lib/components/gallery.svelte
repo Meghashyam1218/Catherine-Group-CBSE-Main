@@ -87,29 +87,29 @@
       <div class="flex flex-wrap md:w-1/2">
         <div class="w-1/2 p-1 md:p-2 hover:brightness-[.7] cursor-pointer transition-all ease-linear">
           <img alt="gallery" class="block img-home object-cover object-center w-full h-full rounded-lg"
-            src="https://mdbcdn.b-cdn.net/img/Photos/Horizontal/Nature/4-col/img%20(70).webp">
+            src="./gallery/g1.jpeg">
         </div>
         <div class="w-1/2 p-1 md:p-2 hover:brightness-[.7] cursor-pointer transition-all ease-linear">
           <img alt="gallery" class="block img-home object-cover object-center w-full h-full rounded-lg"
-            src="https://mdbcdn.b-cdn.net/img/Photos/Horizontal/Nature/4-col/img%20(72).webp">
+            src="./gallery/g2.jpeg">
         </div>
         <div class="w-full p-1 md:p-2 hover:brightness-[.7] cursor-pointer transition-all ease-linear">
           <img alt="gallery" class="block img-home object-cover object-center w-full h-full rounded-lg"
-            src="https://mdbcdn.b-cdn.net/img/Photos/Horizontal/Nature/4-col/img%20(73).webp">
+            src="./gallery/g3.jpeg">
         </div>
       </div>
       <div class="flex flex-wrap md:w-1/2">
         <div class="w-full p-1 md:p-2 hover:brightness-[.7] cursor-pointer transition-all ease-linear">
           <img alt="gallery" class="block img-home object-cover object-center w-full h-full rounded-lg"
-            src="https://mdbcdn.b-cdn.net/img/Photos/Horizontal/Nature/4-col/img%20(74).webp">
+            src="./gallery/g4.jpeg">
         </div>
         <div class="w-1/2 p-1 md:p-2 hover:brightness-[.7] cursor-pointer transition-all ease-linear">
           <img alt="gallery" class="block img-home object-cover object-center w-full h-full rounded-lg"
-            src="https://mdbcdn.b-cdn.net/img/Photos/Horizontal/Nature/4-col/img%20(75).webp">
+            src="./gallery/g5.jpeg">
         </div>
         <div class="w-1/2 p-1 md:p-2 hover:brightness-[.7] cursor-pointer transition-all ease-linear">
           <img alt="gallery" class="block img-home object-cover object-center w-full h-full rounded-lg"
-            src="https://mdbcdn.b-cdn.net/img/Photos/Horizontal/Nature/4-col/img%20(77).webp">
+            src="./gallery/g6.jpeg">
         </div>
       </div>
     </div>
