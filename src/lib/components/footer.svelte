@@ -95,7 +95,7 @@
 						<div
 							class="grid grid-cols-5 items-center lg:px-4 3xs:my-4 md:my-0 justify-items-center 3xs:w-[100%] md:mt-5 lg:mt-0 md:w-[90%] lg:w-[50%]"
 						>
-							<div><a href=""><img src="./facebook.svg" alt="#" /></a></div>
+							<div><a href="https://www.facebook.com/catherinebheemili/"><img src="./facebook.svg" alt="#" /></a></div>
 							<div><a href=""><img src="./instagram.svg" alt="#" /></a></div>
 							<div><a href=""><img src="./youtube.svg" alt="#" /></a></div>
 							<div><a href=""><img src="./twitter.svg" alt="#" /></a></div>
