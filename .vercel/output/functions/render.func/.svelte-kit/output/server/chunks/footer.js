@@ -1,4 +1,5 @@
 import { c as create_ssr_component } from "./index.js";
+const top_svelte_svelte_type_style_lang = "";
 const Footer = create_ssr_component(($$result, $$props, $$bindings, slots) => {
   return `<section class="${""}" data-aos="${"fade-up"}" data-aos-anchor-placement="${"top-center"}"><div><div class="${"bg-[#0c1637] rounded-t-[40px]"}"><div id="${"joinnowf"}" class="${"bg-cover h-[500px] md:h-[75vh] rounded-[40px]"}" style="${"background-image: url(./bgfooter.webp);"}"><div class="${"3xs:h-[75vh] md:h-[75vh] backdrop-blur-none rounded-[40px] grid place-content-center"}"><div id="${"joinnow"}" class="${"grid place-items-center"}"><span class="${"font-extrabold text-white text-8xl xs:text-9xl lg:text-[150px] text-center"}">JOIN<br>NOW!</span></div>
 					<div id="${"tagline-f"}" class="${"flex justify-center mt-2"}"><span class="${"font-semibold text-white 3xs:text-2xl xs:text-3xl md:text-4xl text-center"}">You are the light of the world</span></div>
@@ -9,7 +10,7 @@ const Footer = create_ssr_component(($$result, $$props, $$bindings, slots) => {
 					<div class="${"flex 3xs:flex-col my-5 md:my-0 lg:flex-row items-center md:items-start lg:items-center "}"><a href="${"/contactus"}" class="${"flex flex-row group text-center justify-evenly items-center 3xs:px-2 md:px-8 duration-700 bg-gradient-to-r hover:bg-gradient-to-t from-[#6edad8] via-[#64d9d6] to-[#1aa9e8] 3xs:w-[100%] 2xs:w-[300px] lg:w-[55%] lg:max-w-[350px] md:w-[90%] 3xs:my-4 sm:my-0 h-[10vh] rounded-3xl"}"><a href="${"/contactus"}"><p class="${"font-semibold text-xl group-hover:scale-[1.2] duration-300"}">Contact US
 								</p></a>
 							<a href="${"/contactus"}"><div class="${"bg-white h-[50px] group-hover:h-[55px] w-[50px] group-hover:w-[55px] duration-300 rounded-full grid place-items-center"}"><img class="${""}" src="${"./arrow.svg"}"></div></a></a>
-						<div class="${"grid grid-cols-5 items-center lg:px-4 3xs:my-4 md:my-0 justify-items-center 3xs:w-[100%] md:mt-5 lg:mt-0 md:w-[90%] lg:w-[50%]"}"><div><a href="${""}"><img src="${"./facebook.svg"}" alt="${"#"}"></a></div>
+						<div class="${"grid grid-cols-5 items-center lg:px-4 3xs:my-4 md:my-0 justify-items-center 3xs:w-[100%] md:mt-5 lg:mt-0 md:w-[90%] lg:w-[50%]"}"><div><a href="${"https://www.facebook.com/catherinebheemili/"}"><img src="${"./facebook.svg"}" alt="${"#"}"></a></div>
 							<div><a href="${""}"><img src="${"./instagram.svg"}" alt="${"#"}"></a></div>
 							<div><a href="${""}"><img src="${"./youtube.svg"}" alt="${"#"}"></a></div>
 							<div><a href="${""}"><img src="${"./twitter.svg"}" alt="${"#"}"></a></div>

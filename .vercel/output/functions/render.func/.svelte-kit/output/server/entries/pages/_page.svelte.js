@@ -1,6 +1,6 @@
 import { c as create_ssr_component, e as escape, b as subscribe, d as each, f as add_attribute, v as validate_component } from "../../chunks/index.js";
 import { w as writable } from "../../chunks/index2.js";
-/* empty css                                              */import { F as Footer } from "../../chunks/footer.js";
+import { F as Footer } from "../../chunks/footer.js";
 const hero_svelte_svelte_type_style_lang = "";
 const css$2 = {
   code: "@media only screen and (max-width: 640px){.nav.svelte-yphymm.svelte-yphymm{grid-template-columns:1fr 1fr}}.nav.svelte-yphymm.svelte-yphymm{grid-template-columns:1fr 250px 1fr}.button-menu.svelte-yphymm.svelte-yphymm{border-radius:34px;font-size:18px;display:flex;align-items:center;transition:background-color 0.4s ease, background 0.4s ease, color 0.4s ease;border:none}.button__icon.svelte-yphymm svg.svelte-yphymm{width:24px;height:24px;transition:all 0.4s ease}.button-menu.svelte-yphymm:hover .button__icon svg.svelte-yphymm{transform:rotate(90deg);transition:all 0.4s ease}.menu-list.svelte-yphymm.svelte-yphymm{display:inline-block;position:relative}.menu-list.svelte-yphymm.svelte-yphymm::after{content:'';position:absolute;width:100%;transform:scaleX(0);bottom:0;left:0;background-color:#0c1637;transform-origin:bottom right;transition:transform 0.25s ease-out}.menu-list2.svelte-yphymm.svelte-yphymm::after{background-color:#fff}.menu-list.svelte-yphymm.svelte-yphymm:hover::after{transform:scaleX(1);transform-origin:bottom left}",

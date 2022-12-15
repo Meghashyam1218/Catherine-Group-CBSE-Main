@@ -28,67 +28,7 @@
 </script>
 
 <section class="overflow-hidden text-gray-700">
-	<div
-		class="gallery-head  w-[90vw] mx-auto flex flex-col md:flex-row justify-between items-center p-4"
-	>
-		<h1
-			class="md:text-6xl text-4xl 2xs:text-4xl font-black lg::basis-3/4 text-gray-800 md:m-4 md:ml-6"
-		>
-			Gallery
-		</h1>
-		<div class="lg:flex hidden lg:basis-1/4 scale-[0.7] md:scale-[1] justify-end md:mr-20">
-			<div class="arrow-left pointer-events-none  opacity-0 rotate-0 md:ml-6">
-				<svg
-					width="50pt"
-					height="50pt"
-					viewBox="0 0 100.000000 100.000000"
-					preserveAspectRatio="xMidYMid meet"
-				>
-					<g
-						transform="translate(0.000000,100.000000) scale(0.100000,-0.100000)"
-						fill="rgb(66, 66, 66)"
-						stroke="none"
-					>
-						<path
-							d="M386 944 c-225 -54 -376 -286 -338 -517 62 -367 512 -513 773 -252
-                    329 330 18 879 -435 769z m219 -39 c312 -81 418 -473 191 -701 -241 -240 -651
-                    -107 -709 230 -50 295 226 546 518 471z"
-						/>
-						<path
-							d="M325 590 l-90 -90 92 -92 c73 -73 95 -90 105 -80 10 10 -2 27 -57 82
-                    l-69 70 224 2 c192 3 225 5 225 18 0 13 -33 15 -225 18 l-224 2 68 69 c59 60
-                    76 91 48 91 -4 0 -48 -41 -97 -90z"
-						/>
-					</g>
-				</svg>
-			</div>
-			<div class="arrow-right pointer-events-none opacity-0 rotate-180 md:ml-6">
-				<svg
-					width="50pt"
-					height="50pt"
-					viewBox="0 0 100.000000 100.000000"
-					preserveAspectRatio="xMidYMid meet"
-				>
-					<g
-						transform="translate(0.000000,100.000000) scale(0.100000,-0.100000)"
-						fill="rgb(66, 66, 66)"
-						stroke="none"
-					>
-						<path
-							d="M386 944 c-225 -54 -376 -286 -338 -517 62 -367 512 -513 773 -252
-                    329 330 18 879 -435 769z m219 -39 c312 -81 418 -473 191 -701 -241 -240 -651
-                    -107 -709 230 -50 295 226 546 518 471z"
-						/>
-						<path
-							d="M325 590 l-90 -90 92 -92 c73 -73 95 -90 105 -80 10 10 -2 27 -57 82
-                    l-69 70 224 2 c192 3 225 5 225 18 0 13 -33 15 -225 18 l-224 2 68 69 c59 60
-                    76 91 48 91 -4 0 -48 -41 -97 -90z"
-						/>
-					</g>
-				</svg>
-			</div>
-		</div>
-	</div>
+	
 
 	{#each Array(y) as _, i}
 

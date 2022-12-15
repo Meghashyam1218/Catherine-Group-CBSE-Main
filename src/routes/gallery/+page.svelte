@@ -5,6 +5,6 @@
 
    
 </script>
-<Top/>
+<Top name="Gallery" heading="Gallery" bgImage="./top-1.jpg"/>
 <Gallery />
 <Footer/>
