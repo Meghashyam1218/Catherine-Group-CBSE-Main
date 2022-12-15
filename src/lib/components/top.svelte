@@ -253,7 +253,7 @@
 						<li class=" p-2 md:p-4">
 							<a href="/aboutus"
 								class=" menu-list text-xl md:text-2xl after:h-[3px] cursor-pointer font-semibold text-[#0c1637]"
-								>About us</a
+								>About US</a
 							>
 						</li>
 						<li class=" p-2 md:p-4">
